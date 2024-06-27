@@ -1,0 +1,10 @@
+:root {
+    --theme-bg-color: #fdfeff;
+    --theme-bg-alt-color: #24252a;
+
+    --theme-highlight: #494881;
+    --theme-font: #24252a;
+
+    --theme-warning: #b33737;
+    --theme-font-secondary: #a2a2a3;
+}

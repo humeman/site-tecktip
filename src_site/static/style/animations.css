@@ -1,0 +1,46 @@
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes slideout {
+    0% { margin-left:0; }
+    20% { margin-left:0; }
+    35% { margin-left:800px; }
+    100% { margin-left:800px; }
+}
+
+@keyframes appear {
+    0% { opacity: 0%; }
+    75% { opacity: 100%; }
+    100% { opacity: 100%; };
+}
+
+@keyframes disappear {
+    0% { opacity: 100%; }
+    75% { opacity: 0%; }
+    100% { opacity: 0%; };
+}
+
+.animate_in {
+    animation: slidein 2s;
+}
+
+.animate_out {
+    animation: slideout 2s;
+}
+
+.animate_appear {
+    animation: appear 5s;
+}
+
+.animate_disappear {
+    animation: disappear 1s;
+}
+
+#tip {
+    animation: none;
+    animation-play-state: paused;
+}

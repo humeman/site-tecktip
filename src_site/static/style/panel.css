@@ -1,0 +1,73 @@
+div.tips {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.tecktip {
+    width: 90%;
+    height: 10%;
+    background-color: var(--theme-bg-alt-color);
+    border: none;
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin: 30px 0px;
+}
+
+p.tip {
+    color: var(--theme-bg-color);
+    font-size: 32px;
+    padding: 0px;
+}
+
+p.info {
+    display: inline;
+    margin: 0px 30px 0px 0px;
+}
+
+div.info {
+    padding: 0px;
+    color: var(--theme-font-secondary);
+    display: flex;
+    vertical-align: middle;
+}
+
+.smallbutton {
+    background-color: var(--theme-highlight);
+    border-radius: 24px;
+    text-transform: lowercase;
+    color: var(--theme-bg-color);
+    padding: 10px 25px;
+    border: none;
+    font-size: 16px;
+    margin: 0px 30px 0px 0px;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.smallbutton:hover {
+    opacity: 0.6;
+}
+
+.smallbutton#kill {
+    background-color: var(--theme-warning);
+}
+
+input.smallinput {
+    width: 60%;
+    padding: 20px 50px;
+    font-size: 24px;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 3px solid var(--theme-highlight);
+    color: var(--theme-bg-alt-color);
+}

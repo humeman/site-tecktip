@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>panel login</title>
+
+        <link rel="stylesheet" href="/style/index.css">
+    
+        <script src="/js/lib/jquery-3.6.0.min.js"></script>
+        <script src="/js/login.js"></script>
+        <script src="/js/panel.js"></script>
+        <script src="/js/requests.js"></script>
+        <script src="/js/submissions.js"></script>
+    </head>
+
+    <body>
+
+        <div class="header" style="height: 10%">
+            <h1 class="header">submissions</h1>
+            <p class="info" id="status"></p>
+        </div>
+
+        <div class="center" id="buttons">
+            <button class="bigbutton" onclick="window.location.replace('/panel/')">go back</button>
+        </div>
+
+        <div class="tips">
+        </div>
+
+        <script>
+            check_login("index");
+            get_submissions();
+        </script>
+
+    </body>
+
+
+</html>

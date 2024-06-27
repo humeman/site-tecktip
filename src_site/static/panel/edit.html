@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>teck tip panel</title>
+
+        <link rel="stylesheet" href="/style/index.css">
+    
+        <script src="/js/lib/jquery-3.6.0.min.js"></script>
+        <script src="/js/login.js"></script>
+        <script src="/js/panel.js"></script>
+        <script src="/js/requests.js"></script>
+    </head>
+
+    <body>
+
+        <div class="header" style="height: 10%">
+            <h1 class="header">edit tip</h1>
+            <p class="info" id="status"></p>
+        </div>
+
+        <div class="center" id="buttons">
+            <button class="bigbutton" onclick="save_edit()">save</button>
+            <button class="bigbutton" id="secondarybutton" onclick="window.location.replace('/panel')">cancel</button>
+        </div>
+
+        <div class="inputs">
+            <input class="smallinput" id="uuid" readonly placeholder="uuid"></input>
+            <input class="smallinput" id="createdby" placeholder="created by"></input>
+            <input class="smallinput" id="tiptext" placeholder="tip"></input>
+            <p class="error"></p>
+        </div>
+
+        <script>
+            check_login("index");
+            populate_edit();
+        </script>
+
+    </body>
+
+
+</html>

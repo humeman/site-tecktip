@@ -1,0 +1,14 @@
+- name: Install SvelteKit dependencies
+  ansible.builtin.apt:
+    update_cache: yes
+    pkg:
+    - git
+  become: true
+
+- name: Install nvm as {{ site_name }}
+  ansible.builtin.shell: >
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+  args:
+    creates: "/home/{{ site_name }}/.nvm/nvm.sh"
+  become: true
+  become_user: "{{ site_name }}"

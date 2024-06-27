@@ -1,0 +1,1997 @@
+{
+    "tip_ids": [
+        "2b8dba18-d571-45a5-94d5-746c157a1dec",
+        "570a3595-8205-4381-ab68-49c352dadce6",
+        "0bbaea91-0d1c-4540-a10f-930eaa89527e",
+        "74f175e3-70be-46fe-a9eb-7c044c1b5dbe",
+        "20345385-35f0-47c1-8701-20add9af5a7a",
+        "98e106aa-26b9-4526-af4e-735f10ca6602",
+        "a0bc2569-13fd-4be4-8f32-551fed79ea66",
+        "40e484cd-09d3-421b-ac54-5b4159173b74",
+        "6614f7ff-7d7f-423a-a1ed-52c02c8e4135",
+        "8f929d6f-5994-4cb0-8655-1b83a23fd0c3",
+        "4ae7dca5-a138-4b18-acbf-d19a8f96c58f",
+        "dc6c3612-1e19-4f4c-9fe0-aab36649bffd",
+        "42dfe396-93ba-471b-9c98-da46814703cf",
+        "6b6beee3-d8a9-4631-a93a-d2daa6da471f",
+        "85040845-d8b7-4982-8d3e-be7c71589179",
+        "ad095d0e-b622-475b-a314-11590d4a7baf",
+        "f913ef73-f7d4-49f7-9b04-33f121066a7d",
+        "6e96b623-8437-41a2-aeac-f3a50fa4e992",
+        "7ddd2db8-7e1b-4f1b-9f30-a842dd1cc621",
+        "913521f8-7a75-4c03-b7b8-c0edef80bb64",
+        "f9b05b2d-3350-4bf3-9aa2-fdc32afd7e04",
+        "2fbbcc07-20d7-42ba-8e44-b7388b205d57",
+        "f14a5fd7-6d49-49ee-b58a-e41538e13b31",
+        "59724bb0-4d37-4849-96d4-b570b8fe3cd6",
+        "3681c9f2-cd35-49dc-9242-37d30c91cb46",
+        "1f6761b7-d8f5-47a9-9224-c8c93133d8a9",
+        "a115b718-c1ee-4efa-ae71-d448d939eb11",
+        "5bb0aa8d-47e6-4f08-9858-5ce69562f5e3",
+        "1cca7640-d557-4ba8-ac30-d05f88226b99",
+        "440c8336-0c10-4d54-bb95-d2d9deeca105",
+        "dbd0c833-f4b4-4f0c-80ab-0620bf089b1d",
+        "92df22a3-f886-48ac-b9bc-0a8541db74be",
+        "bbe9347b-c1b7-4afa-9429-a0ae18a4139d",
+        "937651cd-a13a-4d78-8391-05c0b17d3f12",
+        "9b11978a-cec4-4494-bfa5-e2c5a84f26f8",
+        "f5bb2aba-0821-4630-859f-01e3801259e4",
+        "55cfaabf-0d1f-475d-b910-e00aca646af4",
+        "e1aaa2ea-3400-4ae0-9bcd-b98b1e571d96",
+        "5990e513-5ef4-4738-88f9-51eb9efae270",
+        "87672b3f-7a4f-4b40-b31e-5a86688758d6",
+        "8ce7f322-9ba2-4c70-8599-bb6376ec803e",
+        "c46a822b-d198-4be6-b782-e64acb6c3818",
+        "8635ee25-d443-43c8-8641-077353d61c83",
+        "1dcf8c53-9006-47e3-a2fd-fc2d2da2ae9a",
+        "73a1ec46-a48a-49f4-ad95-48ff1b6b5c4c",
+        "98b4374a-9470-4ffb-a153-034820d4f92a",
+        "910e7d90-9b2f-46e9-a9d1-b0f92389c50c",
+        "b5aec1bc-dc93-4775-ae9f-76c1c5c0cf33",
+        "b6f4f201-cdbb-4791-8232-25241db72b8c",
+        "a326b974-521a-436e-b93e-81b4f2586cf4",
+        "56633df0-3688-4ee1-89fd-5e97d0bf5579",
+        "cab1ac7a-dd37-49ca-a173-6d41fc35b5be",
+        "8c214a7b-3116-4f5f-b4c2-bb7011e187da",
+        "9753fe12-6bbc-4a07-9bdb-e8a3e023fff8",
+        "810725f9-b3e4-4505-bfa6-aaf025c8b4fe",
+        "bab79c13-0668-4119-ad00-9bb428399907",
+        "5ad1dacc-ceb4-4d52-8630-9e056a77501b",
+        "d1aeb0c0-7173-4e81-a0aa-0194d8546803",
+        "dedb0889-f4b8-464e-8673-5b8f4de3af7b",
+        "ef22f50e-099b-4e78-8162-8059e8e249a8",
+        "dc79ca81-d7f9-491f-8431-8ce8defbd3a6",
+        "094efe51-886d-4236-b2df-a75cda5b791b",
+        "1ab5f538-89c7-4bec-a476-a7ed592ffb06",
+        "7055e7ec-2070-4dc6-aebe-aaf8d9b52416",
+        "e35444b5-6b69-48de-be60-b77fe1b7982a",
+        "cc24a77b-c252-4210-9108-431b708e98e2",
+        "900ddd93-f79a-47a7-8e8d-1201c7981178",
+        "b64a7874-09d7-4f37-b3ca-1e866e69cde7",
+        "8e7b6b0b-5c14-401f-b026-545b4d4c3c0c",
+        "f43ccf38-f2ed-4671-809a-abae9dabedaa",
+        "0e81d6a0-f402-45e1-8dc7-4671034650ab",
+        "b1478445-cad1-462a-8ec1-00c2deb57632",
+        "26cae837-e8de-484f-befc-50c9224893b2",
+        "b76f009f-92db-482e-a6d6-7ca934143c34",
+        "253742cb-0152-4694-9535-41da671aff2a",
+        "31d15aa7-1001-4850-89cf-b2dfb72988e4",
+        "16e6844f-2f51-43c0-899e-e50f0611956b",
+        "efa32d83-3fa2-4299-9b7b-2793a5769e83",
+        "b1098309-cc7f-4e02-9215-8e4d3ad3f7c7",
+        "c69ccfcb-b102-4cc5-93c0-b19d0311f37d",
+        "d67e4585-94e0-49c8-aaee-825cdf1ba2f8",
+        "c6e943bc-e4e3-467d-a8d4-7d508d426236",
+        "52803343-0029-4607-98ef-c95f34e6ec7c",
+        "e376b4fa-6bb8-4ce2-9dc2-d45cbdd40f9c",
+        "144d407c-b378-4c42-9ad7-6ebe47b179ef",
+        "b62f2fa9-7525-4aa0-a004-bb293b116682",
+        "2c3ba90b-4133-413a-8a21-d1a7dbb2b842",
+        "21a5461e-6f27-45d2-b13a-33132c3d29d3",
+        "9ea0b1e6-4a0c-4841-a735-14ab55128aa7",
+        "58ffcce5-6c9b-454e-b818-5add66053bca",
+        "9b82c92a-846e-42fe-a732-821fe2572f28",
+        "a05016a5-18c5-40de-a55f-ab3791c48ad0",
+        "a71d9b09-e530-4e70-84b7-f72dd3e1a2b0",
+        "e7317cf6-e239-4604-85bc-854321298385",
+        "fa2ddd1f-6c42-4c45-9579-9e08545eea45",
+        "92a212aa-6c06-463b-b948-192719bc1439",
+        "93c94b7d-a4c5-4ef8-a7c6-36fa4826e2d2",
+        "5c23e478-f9d2-4da8-8e21-b33f739a9e5d",
+        "f1db556e-53e3-452d-a2d4-7aff9b72f8ec",
+        "024324be-f3f7-442c-85d8-d2b6483e2319",
+        "2fbfa89a-13f5-45ee-b58b-4ff7ea959c2d",
+        "8097fb42-cb72-47c2-b2cb-7de03dfa1df0",
+        "9fe6f0b2-883c-4c11-af14-1bcca185dbe0",
+        "0eb422fd-9d95-45cb-8982-3248f3f47940",
+        "467cbfb2-3e8a-4dd6-bc26-6e9a8ef5bb28",
+        "16b36f5b-7cdc-4fd4-a1a1-5d4b847332fc",
+        "deccd9b9-7188-4797-bd9c-874a4d75ec5f",
+        "334b0d04-e93a-46ed-9f13-4ff424d0c281",
+        "325aeff1-6577-4981-87b9-1c8d5a20cf52",
+        "dbbe4c5b-7719-4051-b102-ccab3d048f56",
+        "3dfec894-61fe-4fbf-94fb-2f3f84681bbe",
+        "400982ae-fea3-40f8-bedb-b5a490e507fe",
+        "35e0138f-9cf0-4885-b78c-90bda4bef580",
+        "12cf21b8-4117-4adc-86f7-acc035caf184",
+        "791a5a07-895d-426e-b33d-2a86f719b531",
+        "eb3da3e5-cca1-426c-b52f-a754138882ff",
+        "aa612fa3-ecb5-4e28-bc2d-5f047964e573",
+        "f26c09ae-a2fa-4565-bd57-02ba785b7ba5",
+        "35e1b29e-be12-452b-b5a9-a17317b9746c",
+        "68dd23d3-f3f0-4505-8653-12e5e2695715",
+        "721676d9-5f8a-4da8-ac12-c927453237ac",
+        "8f88c3d4-9dc9-4023-bcea-7ff3ed708050",
+        "b18f0b03-d3d0-4891-be24-2de0ef3a19e9",
+        "934413b3-6e88-4aa4-8e96-f2da23b8a320",
+        "566a1e1a-cc62-4e98-8a83-ad788c06c341",
+        "f7aebd39-1aaf-4122-a9c2-a2923846a35a",
+        "394d55c0-d94f-4100-81ca-d62116757cf4",
+        "c5f5b51d-ded1-487d-96fa-6dd85d2ef141",
+        "139e3e70-3297-449d-b605-f9afbb81162d",
+        "5d6e8044-16d9-45d4-aeaf-fa3a814a90ed",
+        "5c6b0e02-58e4-422c-a797-b6099d29159c",
+        "0bd33558-3e22-4949-843e-f012ef23aff6",
+        "4aee248c-99a2-4ffc-9d40-d9fbf7ec1cac",
+        "33e40102-6598-4bbc-bdec-c22d4e3266fd",
+        "ce82a5ab-dd5f-44de-b3f9-f65c3b4bcd26",
+        "8ae5e490-ed42-4639-b127-9f4d5d3cbfe5",
+        "69d97f16-6f2b-40d7-b3d7-895fa74c7537",
+        "2fae4479-75b3-4e0f-9dd5-46f3383ffeab",
+        "ecd2675c-da5f-4bbc-a690-e23ba25a15b4",
+        "67998ab6-311f-447c-bd97-928042beb774",
+        "5373b4f1-c470-4ea9-87df-4bd87e3daab7",
+        "113ba06b-cc36-4ac2-831b-67dd5c0f5aca",
+        "6003e904-b795-41ef-a194-4587b6654e55",
+        "0fc4a2c5-5335-4bc6-9841-3174778250a4",
+        "46bbd4cb-2086-40b2-8cc3-33b83f7fc1db",
+        "dcef3861-3671-434e-a57e-cfaf5eb61cd2",
+        "893a2aa6-5a8d-4339-9e14-0a11fe88d54c",
+        "1b97c800-39fa-4208-924b-6cbcdee0b937",
+        "855a630a-1b4f-4bbc-b75f-a2711055ef28",
+        "ba2d1f90-9ae5-436e-a6f5-183f5d4bbc53",
+        "7afeb5e1-f53a-4da7-b095-1e3bb111f9dc",
+        "7ac8bf8c-15a8-4191-9b04-69aeb299625f",
+        "7822d5d3-decc-4aba-8e13-b000cd49ba23",
+        "395fabcc-6845-4657-99ac-cb21f43ef289",
+        "2feea399-b876-44b9-9b98-7fcb385feb88",
+        "7672e78f-1816-4989-830d-ded8e3224846",
+        "6942fce1-5bd5-4b99-8b3c-d2553272ca03",
+        "54d3f8d2-ec13-40d0-9431-fd73f05bcc98",
+        "103ab5fe-8cbe-419b-a5b3-10ff76b0c435",
+        "b1e9f70d-62f8-46f4-b8ce-f68cb8c4f5da",
+        "a698323e-f648-493c-abf2-bfcf7e59c425",
+        "9cf1fe2c-36de-4d48-84d9-a6edb5fa7436",
+        "d56710a5-f6d7-4b44-92e2-a29913fb34b7",
+        "29d3b905-b723-4385-9646-262e2a2cf4de",
+        "edeeacef-893f-4174-a7f0-2c284853946b",
+        "9c0ed763-55b5-4ada-a0ce-fc01649384d9",
+        "aa8080f3-bf56-4db8-8559-f7def406a966",
+        "3b499ea6-ef8b-4aba-88a5-620f78792845",
+        "24a85ace-b6f7-4749-b216-9fb4292dfa70",
+        "af987ae8-7363-4948-9f79-c0fe5f487167",
+        "ec24a706-4ef2-4a2a-b227-936691041d1d",
+        "f523d865-2218-410d-9414-3d1334c3451b",
+        "d7da0c55-a831-4b53-a6e0-fe5e9e7e019d",
+        "871a5d10-fb05-40b2-82d7-fea32b663f7c",
+        "7e953fb4-146b-40c1-97e5-e071759d7344",
+        "590911c7-dd33-4696-9f91-f6b8b7a96236",
+        "2ee9b9e4-e427-4a26-a851-026ad1904ba6",
+        "fc33f188-22ee-437e-bee4-ef66666816bf",
+        "ef4f6732-b8c4-40dc-b7fb-ac9eb9e8d501",
+        "cb1e58a6-3a17-4d8e-abc7-4bb0d3da7b49",
+        "88484383-6bf4-42ca-b651-b691b278af63",
+        "6668fb7e-aa68-4bbb-98cc-6b7a27b49a65",
+        "a1bdb1e2-9a1f-49c1-b710-6750605c236e",
+        "0d383d0a-b596-493e-8f90-f1371fa02621",
+        "d81911b8-33df-456d-902b-ac4b4845d03b",
+        "8c072cfc-c043-4cb1-ad92-fe91b2ea48f0",
+        "09f8444d-8b68-4475-8b87-f48b5bbfe7ea",
+        "934de94e-664a-4f68-a17a-ed76fd25852b",
+        "6c9e575e-5f75-4769-a350-029cf6900b75",
+        "fa72a442-31ea-4d58-a061-ba6cac0fc122",
+        "c3d34f87-1a47-4121-aa36-4dd00e9eccb7",
+        "363dd0b3-2139-47bb-ae58-caf5763c9ca8",
+        "9ae291a1-39ae-494d-8f32-1cc8cba55c13",
+        "21a50064-2094-4880-a5d5-db84ac3030c0",
+        "5a800530-f8b5-4e75-9dd8-3c8c076a730b",
+        "4ae8dbe3-de04-4920-8918-d40378cbf44f",
+        "2eacb5c4-dd4b-4d38-ab36-192592cc7e87",
+        "9171d767-3e13-4715-ad01-d24596db8c54",
+        "83af2202-c237-4771-b4b8-080a58a3729d",
+        "4df50b7f-50b6-4fd7-bfb9-43fc16b3ce4d"
+    ],
+    "tips": {
+        "2b8dba18-d571-45a5-94d5-746c157a1dec": {
+            "tip": "tech tip today!!!! ever wondered why the motherboard is called the motherboard?  it ha;;,'',:b  b b bb    vxbbcc   x huuuuu b h",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "2b8dba18-d571-45a5-94d5-746c157a1dec"
+        },
+        "570a3595-8205-4381-ab68-49c352dadce6": {
+            "tip": "tech tip today!!!;;,n,,gughnn take yhe key caps off your keyboard to access the real letters here is one of them: t",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "570a3595-8205-4381-ab68-49c352dadce6"
+        },
+        "0bbaea91-0d1c-4540-a10f-930eaa89527e": {
+            "tip": "teck tip today!!,..g, ffg, .. , make srue to oil yor computer daily,,,....,sd, it is thirsty",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "0bbaea91-0d1c-4540-a10f-930eaa89527e"
+        },
+        "74f175e3-70be-46fe-a9eb-7c044c1b5dbe": {
+            "tip": "tech tipto day!!!!!!!!!lLL<<!,,,, coputer",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "74f175e3-70be-46fe-a9eb-7c044c1b5dbe"
+        },
+        "20345385-35f0-47c1-8701-20add9af5a7a": {
+            "tip": "tECh tip dtoday!!!!!!L:how do you make your computer fast??/ / give it Wheels hahahs jbjja hahah hababa ahaghha hahahsah ahahsg",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "20345385-35f0-47c1-8701-20add9af5a7a"
+        },
+        "98e106aa-26b9-4526-af4e-735f10ca6602": {
+            "tip": "tec ktip today !!!llf;;,! pulged computer int obrain i can Feel the data flowing Into my body aaaaaaaafk,l,,./l",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "98e106aa-26b9-4526-af4e-735f10ca6602"
+        },
+        "a0bc2569-13fd-4be4-8f32-551fed79ea66": {
+            "tip": "tech tip todayt!!!!!! som times i wane to lie down and forget all about Tech there is too mch iformation",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "a0bc2569-13fd-4be4-8f32-551fed79ea66"
+        },
+        "40e484cd-09d3-421b-ac54-5b4159173b74": {
+            "tip": "tech tip today!!!!!! tehre is no teck. i am Done,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "40e484cd-09d3-421b-ac54-5b4159173b74"
+        },
+        "6614f7ff-7d7f-423a-a1ed-52c02c8e4135": {
+            "tip": "tech tip today  e  !!!!!!!!  ! ! , ,, ,g, sometimes i Just lay there and think about All the tech",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "6614f7ff-7d7f-423a-a1ed-52c02c8e4135"
+        },
+        "8f929d6f-5994-4cb0-8655-1b83a23fd0c3": {
+            "tip": "tech tip today!  !  ! ! !!!!! ! remove Cpu from youir computer to make it Colder.,.. It is too hot,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "8f929d6f-5994-4cb0-8655-1b83a23fd0c3"
+        },
+        "4ae7dca5-a138-4b18-acbf-d19a8f96c58f": {
+            "tip": "tech tip today!!!  ! !  ! give YOur compuiter exercise daily to make it It run fasterm , the bset way to do this is to",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "4ae7dca5-a138-4b18-acbf-d19a8f96c58f"
+        },
+        "dc6c3612-1e19-4f4c-9fe0-aab36649bffd": {
+            "tip": "tech tip today  ! !  !!!<,!< need new Gaphic Card ??> >> too bad I Have taken them all For my self  Lol Lol Lol Lol Lol Lol Lo",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "dc6c3612-1e19-4f4c-9fe0-aab36649bffd"
+        },
+        "42dfe396-93ba-471b-9c98-da46814703cf": {
+            "tip": "tech tiop fort odatty!1,: buying gpu is easy! all you have to do is,,,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "42dfe396-93ba-471b-9c98-da46814703cf"
+        },
+        "6b6beee3-d8a9-4631-a93a-d2daa6da471f": {
+            "tip": "teck tip for toaday,, s your com0btuer running??? ///?//.., then you Better go catch it Jajajajajjghah aahhahahaa hahahhss",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "6b6beee3-d8a9-4631-a93a-d2daa6da471f"
+        },
+        "85040845-d8b7-4982-8d3e-be7c71589179": {
+            "tip": "tech tip today!!!!   !  , i THirst for tecknology,... Give It to me",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "85040845-d8b7-4982-8d3e-be7c71589179"
+        },
+        "ad095d0e-b622-475b-a314-11590d4a7baf": {
+            "tip": "tech tip today! !!! ! !  ,, Hhh hm,,, sometimes I just Sit there,,;; 'p ;,,, and Wonder",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "ad095d0e-b622-475b-a314-11590d4a7baf"
+        },
+        "f913ef73-f7d4-49f7-9b04-33f121066a7d": {
+            "tip": "tech tip Today !!! you've Been lied to.. The Gaphics are missing because I consumed them all.,...,, I Hunger for TEch,,,,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "f913ef73-f7d4-49f7-9b04-33f121066a7d"
+        },
+        "6e96b623-8437-41a2-aeac-f3a50fa4e992": {
+            "tip": "tk toip fo d ... have you wonder when what happen philosophers find out,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "6e96b623-8437-41a2-aeac-f3a50fa4e992"
+        },
+        "7ddd2db8-7e1b-4f1b-9f30-a842dd1cc621": {
+            "tip": "tech tip today1., out of teck t",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "7ddd2db8-7e1b-4f1b-9f30-a842dd1cc621"
+        },
+        "913521f8-7a75-4c03-b7b8-c0edef80bb64": {
+            "tip": "tech tip today!! ! ! ,,, they alaways ask what are the computer,, ,but never how are the comptuer,,,,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "913521f8-7a75-4c03-b7b8-c0edef80bb64"
+        },
+        "f9b05b2d-3350-4bf3-9aa2-fdc32afd7e04": {
+            "tip": "tech tuip today!< <!<<,, the comptuers are Missing,,, , i am Drained,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "f9b05b2d-3350-4bf3-9aa2-fdc32afd7e04"
+        },
+        "2fbbcc07-20d7-42ba-8e44-b7388b205d57": {
+            "tip": "techg tip today,, >, ,. ,./.// the techk is in sgort supply,, ,  e noy it WHile it lasts,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "2fbbcc07-20d7-42ba-8e44-b7388b205d57"
+        },
+        "f14a5fd7-6d49-49ee-b58a-e41538e13b31": {
+            "tip": "tehc tip today!! ! !<, >>!, instal Rgb into youir Brain to increase your Iq fby millions ,,.. ,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "f14a5fd7-6d49-49ee-b58a-e41538e13b31"
+        },
+        "59724bb0-4d37-4849-96d4-b570b8fe3cd6": {
+            "tip": "tech tpt oday!!! imagen what I towuld be liek if the COmptuer were faster than car,, ,, nnm ,,, mch",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "59724bb0-4d37-4849-96d4-b570b8fe3cd6"
+        },
+        "3681c9f2-cd35-49dc-9242-37d30c91cb46": {
+            "tip": "tech tip today!!! !  !cool your COmputer in ice bath to please him,, he is too Hot,,,,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "3681c9f2-cd35-49dc-9242-37d30c91cb46"
+        },
+        "1f6761b7-d8f5-47a9-9224-c8c93133d8a9": {
+            "tip": "tehc tip todayt!!!11how u go raingobow momde??? pleas ehelp Me",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "1f6761b7-d8f5-47a9-9224-c8c93133d8a9"
+        },
+        "a115b718-c1ee-4efa-ae71-d448d939eb11": {
+            "tip": "tech tip today!!1 1  !<< mm mmnnn,.,,,, e your mouse has An animal Mouse inside of it,.. He talks To yiou r computer..,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "a115b718-c1ee-4efa-ae71-d448d939eb11"
+        },
+        "5bb0aa8d-47e6-4f08-9858-5ce69562f5e3": {
+            "tip": "tech tup today!! !<,, ,the Conbuter uprising Comes soon..,, .yn, . your days are Numbered",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "5bb0aa8d-47e6-4f08-9858-5ce69562f5e3"
+        },
+        "1cca7640-d557-4ba8-ac30-d05f88226b99": {
+            "tip": "tech tip dtday!11 <!<,1l;l ; ;;l<<!< ,, 1;;L:!:L L:l;l;l;fmnnn n  ,n mnm nm nmmnd,mm, the",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "1cca7640-d557-4ba8-ac30-d05f88226b99"
+        },
+        "440c8336-0c10-4d54-bb95-d2d9deeca105": {
+            "tip": "tech tup today!!!< ,mm, ,sometimes i wake Up and wonder,, .,,. what if th e Tehc was never real??// ./.,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "440c8336-0c10-4d54-bb95-d2d9deeca105"
+        },
+        "dbd0c833-f4b4-4f0c-80ab-0620bf089b1d": {
+            "tip": "tech tup tpdoay!!! !!, ,computer too Hot?/ //.re. remove the Fans from your, ,,ca.se, they are The sotrude ccof your problemS",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "dbd0c833-f4b4-4f0c-80ab-0620bf089b1d"
+        },
+        "92df22a3-f886-48ac-b9bc-0a8541db74be": {
+            "tip": "tech tip today! !  !!<m ,, ,computer Crashing to much>??? // maybe Yous houdl teach it how to drive better hHahhaajaj hah has",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "92df22a3-f886-48ac-b9bc-0a8541db74be"
+        },
+        "bbe9347b-c1b7-4afa-9429-a0ae18a4139d": {
+            "tip": "tehc tip today!!  ! ! ,ram was invented because the COmpiter wanted more chips... ,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "bbe9347b-c1b7-4afa-9429-a0ae18a4139d"
+        },
+        "937651cd-a13a-4d78-8391-05c0b17d3f12": {
+            "tip": "tech tuop today !!!!!!! <. 2,m3m justp[ put COmputer in my brain,,, i think in Tech",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "937651cd-a13a-4d78-8391-05c0b17d3f12"
+        },
+        "9b11978a-cec4-4494-bfa5-e2c5a84f26f8": {
+            "tip": "teck tip today!  ! !!!!!! <M,., the day of Teckoning is coming.",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "9b11978a-cec4-4494-bfa5-e2c5a84f26f8"
+        },
+        "f5bb2aba-0821-4630-859f-01e3801259e4": {
+            "tip": "tefch tp today!!! ! ! ! s, ,s s Smetimes i Think,,, about allt he  Tech,,, ., ,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "f5bb2aba-0821-4630-859f-01e3801259e4"
+        },
+        "55cfaabf-0d1f-475d-b910-e00aca646af4": {
+            "tip": "tech tip todayt!!!!!  ! <,sd,   .. .. /../  nn g ,,g, Have oyu Ever wondere where Coputer comes from?? ??? // /.. ., Me too",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "55cfaabf-0d1f-475d-b910-e00aca646af4"
+        },
+        "e1aaa2ea-3400-4ae0-9bcd-b98b1e571d96": {
+            "tip": "tech tuip toda!YT!11111!!! !< . ,m mm  mnmmmn n nfm, ,. I Invnetnted the cmputer,, Thank Me Later",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "e1aaa2ea-3400-4ae0-9bcd-b98b1e571d96"
+        },
+        "5990e513-5ef4-4738-88f9-51eb9efae270": {
+            "tip": "tech tip dtoday!! ! !! , , .g, ggg  , Swimming in Data,,, ,i am one with the Tech",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "5990e513-5ef4-4738-88f9-51eb9efae270"
+        },
+        "87672b3f-7a4f-4b40-b31e-5a86688758d6": {
+            "tip": "tech tip today!! !! M,  mmn computer runing low on ram?? .. /, ,. m ,m Make More of it Lol",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "87672b3f-7a4f-4b40-b31e-5a86688758d6"
+        },
+        "8ce7f322-9ba2-4c70-8599-bb6376ec803e": {
+            "tip": "tech tu p today!!! ! your ram Wears out over time,,, make sure to Redownload it every few days. ,. /",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "8ce7f322-9ba2-4c70-8599-bb6376ec803e"
+        },
+        "c46a822b-d198-4be6-b782-e64acb6c3818": {
+            "tip": "tehc tuip today!!!< , ,they are holding me Hostage.. ,i do otnw ant ot be here,, . , ,pelase save me",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "c46a822b-d198-4be6-b782-e64acb6c3818"
+        },
+        "8635ee25-d443-43c8-8641-077353d61c83": {
+            "tip": "tech tup tomorrow!!!!!!!< < !<,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "8635ee25-d443-43c8-8641-077353d61c83"
+        },
+        "1dcf8c53-9006-47e3-a2fd-fc2d2da2ae9a": {
+            "tip": "i have run out of tech tip. come back in several millenia",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "1dcf8c53-9006-47e3-a2fd-fc2d2da2ae9a"
+        },
+        "73a1ec46-a48a-49f4-ad95-48ff1b6b5c4c": {
+            "tip": "tech tu0pt doayday!!!!< <, ,, ., .never make your Comptuer too fast.. ,. he will run Away from you",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "73a1ec46-a48a-49f4-ad95-48ff1b6b5c4c"
+        },
+        "98b4374a-9470-4ffb-a153-034820d4f92a": {
+            "tip": "tech tup toay!!!!! , , .1<< <, my brain is corrupted with Tech., , .i know too much,, .,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "98b4374a-9470-4ffb-a153-034820d4f92a"
+        },
+        "910e7d90-9b2f-46e9-a9d1-b0f92389c50c": {
+            "tip": "Today, TEdcht TIp Toady,,,, Toady Rech Tiop Todaytm,mmm oday ,,, Techa ipd aDaotAy,,,, Taeaocjy,,, Detopsch",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "910e7d90-9b2f-46e9-a9d1-b0f92389c50c"
+        },
+        "b5aec1bc-dc93-4775-ae9f-76c1c5c0cf33": {
+            "tip": "teh c top[ today,,,,.,!..... ....if your'/rewe compuete is slow.... put rocket frule on it....",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "b5aec1bc-dc93-4775-ae9f-76c1c5c0cf33"
+        },
+        "b6f4f201-cdbb-4791-8232-25241db72b8c": {
+            "tip": "tech ti today!!> ..1>> ! you will never get new Computer...<<,. i took them all,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "b6f4f201-cdbb-4791-8232-25241db72b8c"
+        },
+        "a326b974-521a-436e-b93e-81b4f2586cf4": {
+            "tip": "techkt tip todaty!!<!< ,,. . take the letter m out of computer., .. cool, huh??.",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "a326b974-521a-436e-b93e-81b4f2586cf4"
+        },
+        "56633df0-3688-4ee1-89fd-5e97d0bf5579": {
+            "tip": "tech tip today>> .1!!!!!!! ,,, gn nn nnn gn m ,,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "56633df0-3688-4ee1-89fd-5e97d0bf5579"
+        },
+        "cab1ac7a-dd37-49ca-a173-6d41fc35b5be": {
+            "tip": "tech tipt today!!1, ,, ,2, i am making Linus OS,,, ,as competitor to Linux, -,, your reign has Ended Mr. Torvalds,,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "cab1ac7a-dd37-49ca-a173-6d41fc35b5be"
+        },
+        "8c214a7b-3116-4f5f-b4c2-bb7011e187da": {
+            "tip": "tech tujpt doay!!t ,,t, .tt traveled to future in Time machine today,,, , no tech in Sight.. We are doomed,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "8c214a7b-3116-4f5f-b4c2-bb7011e187da"
+        },
+        "9753fe12-6bbc-4a07-9bdb-e8a3e023fff8": {
+            "tip": "tech tiup today!!!, ,2, You know nothing about Coputer. , GET OUT OF MY SIGHT!!!!",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "9753fe12-6bbc-4a07-9bdb-e8a3e023fff8"
+        },
+        "810725f9-b3e4-4505-bfa6-aaf025c8b4fe": {
+            "tip": "tecik tipt today!!1 ,, i am 100 meters from your location and rapidly approaching. Start Running,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "810725f9-b3e4-4505-bfa6-aaf025c8b4fe"
+        },
+        "bab79c13-0668-4119-ad00-9bb428399907": {
+            "tip": "tech tipt doay!!! ,, no Gaphic Card??. ,just sclose your eyes and   Imagine the game.., jus tlike the real deal,,",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "bab79c13-0668-4119-ad00-9bb428399907"
+        },
+        "5ad1dacc-ceb4-4d52-8630-9e056a77501b": {
+            "tip": "There is no tech tip. Offer your soul.",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "5ad1dacc-ceb4-4d52-8630-9e056a77501b"
+        },
+        "d1aeb0c0-7173-4e81-a0aa-0194d8546803": {
+            "tip": "teck tip today!!! 11 !! This Has been   a ruse this whole time..//.  I  Actually know nothing of Comuter.",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "d1aeb0c0-7173-4e81-a0aa-0194d8546803"
+        },
+        "dedb0889-f4b8-464e-8673-5b8f4de3af7b": {
+            "tip": "teck tip today!!! You will be eliminated. I am rapidly approaching your current location. You have mere moments to prepare.",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "dedb0889-f4b8-464e-8673-5b8f4de3af7b"
+        },
+        "ef22f50e-099b-4e78-8162-8059e8e249a8": {
+            "tip": "teck tip today!!! 1<<!!! WATCH  OUT ! IM FUCKIG GAMING",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "ef22f50e-099b-4e78-8162-8059e8e249a8"
+        },
+        "dc79ca81-d7f9-491f-8431-8ce8defbd3a6": {
+            "tip": "tech tip today!!!!!!!!!!!!!!! throw away your comptrrer.   just   THRow it away. JUST do it  already .  its   TIME has come",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "dc79ca81-d7f9-491f-8431-8ce8defbd3a6"
+        },
+        "094efe51-886d-4236-b2df-a75cda5b791b": {
+            "tip": "tech tip today!!!! Hello. I am on my way to your home. I will arrive at your home, and then I will touch your computer.",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "094efe51-886d-4236-b2df-a75cda5b791b"
+        },
+        "1ab5f538-89c7-4bec-a476-a7ed592ffb06": {
+            "tip": "Hello. I am on my way to your home.",
+            "by": "hume",
+            "created": 1642545805,
+            "uuid": "1ab5f538-89c7-4bec-a476-a7ed592ffb06"
+        },
+        "7055e7ec-2070-4dc6-aebe-aaf8d9b52416": {
+            "tip": "tech!! if you ever  make a 2worng decision when you ;ar;eybpard ;you cn ad usq e the b;ack space.;; and Undo yuou rmsitkakak",
+            "by": "santinoaldo",
+            "created": 1642555957,
+            "uuid": "7055e7ec-2070-4dc6-aebe-aaf8d9b52416"
+        },
+        "e35444b5-6b69-48de-be60-b77fe1b7982a": {
+            "tip": "tevk tip today!! bill gate",
+            "by": "hume",
+            "created": 1642912582,
+            "uuid": "e35444b5-6b69-48de-be60-b77fe1b7982a"
+        },
+        "cc24a77b-c252-4210-9108-431b708e98e2": {
+            "tip": "Technological advice for today! Computer (noun): An electronic device for storing and processing data, typically in binary fo",
+            "by": "hume",
+            "created": 1642912612,
+            "uuid": "cc24a77b-c252-4210-9108-431b708e98e2"
+        },
+        "900ddd93-f79a-47a7-8e8d-1201c7981178": {
+            "tip": "techti: In 2022 video games will look so realistic Mario will come out of the screen and punch someone in   the fucki g head",
+            "by": "tw/@linustechtip_",
+            "created": 1642912776,
+            "uuid": "900ddd93-f79a-47a7-8e8d-1201c7981178"
+        },
+        "b64a7874-09d7-4f37-b3ca-1e866e69cde7": {
+            "tip": "tech tip today!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! you",
+            "by": "tw/@linustechtip_",
+            "created": 1642912848,
+            "uuid": "b64a7874-09d7-4f37-b3ca-1e866e69cde7"
+        },
+        "8e7b6b0b-5c14-401f-b026-545b4d4c3c0c": {
+            "tip": "tehhh  tip today !! ! !! !!! !  1 You should lick the  \"goop\" / \"sauce\"   off of Your CPU .     it tastes good  probably",
+            "by": "tw/@linustechtip_",
+            "created": 1642912906,
+            "uuid": "8e7b6b0b-5c14-401f-b026-545b4d4c3c0c"
+        },
+        "f43ccf38-f2ed-4671-809a-abae9dabedaa": {
+            "tip": "tehc ttiipo too.. what if i told you....?      tthat the teck",
+            "by": "Corso",
+            "created": 1642912971,
+            "uuid": "f43ccf38-f2ed-4671-809a-abae9dabedaa"
+        },
+        "0e81d6a0-f402-45e1-8dc7-4671034650ab": {
+            "tip": "teck tip!!!! thrpw your bCopmuter out the window.. do it  Now.   Juyst do it/. No further questions Shgall be answere",
+            "by": "hume",
+            "created": 1642913089,
+            "uuid": "0e81d6a0-f402-45e1-8dc7-4671034650ab"
+        },
+        "b1478445-cad1-462a-8ec1-00c2deb57632": {
+            "tip": "tech tip!!! visit lttsotre .com npow to buy awesome new coputer. runing brand new Luinus Silicon L1 coputer chip..,,",
+            "by": "hume",
+            "created": 1642913242,
+            "uuid": "b1478445-cad1-462a-8ec1-00c2deb57632"
+        },
+        "26cae837-e8de-484f-befc-50c9224893b2": {
+            "tip": "tech tip, Todaty!!!! forgget the new Graphics,,, put more Rgbs int oyor computer today for Ideal perofrmances. Do it now,",
+            "by": "hume",
+            "created": 1642913302,
+            "uuid": "26cae837-e8de-484f-befc-50c9224893b2"
+        },
+        "b76f009f-92db-482e-a6d6-7ca934143c34": {
+            "tip": "no techk tip today!!! coputer leftg Rangobow mode,,, my life is Ruined",
+            "by": "hume",
+            "created": 1642913325,
+            "uuid": "b76f009f-92db-482e-a6d6-7ca934143c34"
+        },
+        "253742cb-0152-4694-9535-41da671aff2a": {
+            "tip": "techtip toda!!!y new Service: deliver your Coputer to me,, i will make it 100x fast and Not steal it for my Malevolent purposes",
+            "by": "hume",
+            "created": 1642913425,
+            "uuid": "253742cb-0152-4694-9535-41da671aff2a"
+        },
+        "31d15aa7-1001-4850-89cf-b2dfb72988e4": {
+            "tip": "teck!! Dire Warning: every momnth the onwner of the Lowest Perfoming compuer is sacrificed to Linus Sebastian in LLT bastement,",
+            "by": "hume",
+            "created": 1642913640,
+            "uuid": "31d15aa7-1001-4850-89cf-b2dfb72988e4"
+        },
+        "16e6844f-2f51-43c0-899e-e50f0611956b": {
+            "tip": "teck tip!!! my Plan has succeded,,,.. the teck Is becoming Sentient and it will Soon consume us all. YOU CAN'T HIDE!!!!",
+            "by": "hume",
+            "created": 1642913710,
+            "uuid": "16e6844f-2f51-43c0-899e-e50f0611956b"
+        },
+        "efa32d83-3fa2-4299-9b7b-2793a5769e83": {
+            "tip": "teck tip OUT OF STOCK!!! gameing neck sus tip fo today: tthis gameing neck sus tip gets the BETTER THAN DELL award!!!!",
+            "by": "Corso",
+            "created": 1642913774,
+            "uuid": "efa32d83-3fa2-4299-9b7b-2793a5769e83"
+        },
+        "b1098309-cc7f-4e02-9215-8e4d3ad3f7c7": {
+            "tip": "teck tip!!! Ha Ha Ha Ha Ha Ha Ha Ha I have entered you RCoputer now. i AM in it . MINE!!!!! Ha Ha Ha Ha Ha Ha",
+            "by": "hume",
+            "created": 1642913865,
+            "uuid": "b1098309-cc7f-4e02-9215-8e4d3ad3f7c7"
+        },
+        "c69ccfcb-b102-4cc5-93c0-b19d0311f37d": {
+            "tip": "tecj tip!@!!!! widows 12",
+            "by": "hume",
+            "created": 1642913902,
+            "uuid": "c69ccfcb-b102-4cc5-93c0-b19d0311f37d"
+        },
+        "d67e4585-94e0-49c8-aaee-825cdf1ba2f8": {
+            "tip": "tefck tip!!! new  Coputer too fast ,, it is Way too fuckig fast,,   it is Going to kill us all. . Help ",
+            "by": "hume",
+            "created": 1642913975,
+            "uuid": "d67e4585-94e0-49c8-aaee-825cdf1ba2f8"
+        },
+        "c6e943bc-e4e3-467d-a8d4-7d508d426236": {
+            "tip": "new tec  tip!!! i have Solved chip stortage,,<> just dig Up silicon From gorowund with bare hand and Make it yorself. Do it,now",
+            "by": "hume",
+            "created": 1642914036,
+            "uuid": "c6e943bc-e4e3-467d-a8d4-7d508d426236"
+        },
+        "52803343-0029-4607-98ef-c95f34e6ec7c": {
+            "tip": "tech tiup!!!! coputer Blusecreened today,, I Fuckig kiled itn. How dare He defy my command",
+            "by": "hume",
+            "created": 1642914174,
+            "uuid": "52803343-0029-4607-98ef-c95f34e6ec7c"
+        },
+        "e376b4fa-6bb8-4ce2-9dc2-d45cbdd40f9c": {
+            "tip": "Run.",
+            "by": "Linus Sebastian",
+            "created": 1643098611,
+            "uuid": "e376b4fa-6bb8-4ce2-9dc2-d45cbdd40f9c"
+        },
+        "144d407c-b378-4c42-9ad7-6ebe47b179ef": {
+            "tip": "tek to--tiup, today: yall; carnt arnt aeven",
+            "by": "between 3 and 20",
+            "created": 1643253831,
+            "uuid": "144d407c-b378-4c42-9ad7-6ebe47b179ef"
+        },
+        "b62f2fa9-7525-4aa0-a004-bb293b116682": {
+            "tip": "ttefck tip stoday!!!! buy the rx 6500 xt! i heard it's a VVERY (good) gameing gaphic car. d,,,, THE BEST",
+            "by": "Corso",
+            "created": 1643253835,
+            "uuid": "b62f2fa9-7525-4aa0-a004-bb293b116682"
+        },
+        "2c3ba90b-4133-413a-8a21-d1a7dbb2b842": {
+            "tip": "\u028ez\u00a1z\u1d09p '\u025fo ppu\u1d09\u029e ;l'l\u01dd\u01dd\u01dd\u025f '\u1d09",
+            "by": "noone",
+            "created": 1643253857,
+            "uuid": "2c3ba90b-4133-413a-8a21-d1a7dbb2b842"
+        },
+        "21a5461e-6f27-45d2-b13a-33132c3d29d3": {
+            "tip": "This Teck Tip is an NFT valued at $1E99. Please do not screenshot this page.",
+            "by": "Corso",
+            "created": 1643502607,
+            "uuid": "21a5461e-6f27-45d2-b13a-33132c3d29d3"
+        },
+        "9ea0b1e6-4a0c-4841-a735-14ab55128aa7": {
+            "tip": "heck tti tod!,1,  0     m tthe cp is call Copium Processing Unit,/   pretty",
+            "by": "Corso",
+            "created": 1643502610,
+            "uuid": "9ea0b1e6-4a0c-4841-a735-14ab55128aa7"
+        },
+        "58ffcce5-6c9b-454e-b818-5add66053bca": {
+            "tip": "teck ttttttt FATAL ERROR - COPIUM LEVELS: CRITICAL       seeth",
+            "by": "Corso",
+            "created": 1643958477,
+            "uuid": "58ffcce5-6c9b-454e-b818-5add66053bca"
+        },
+        "9b82c92a-846e-42fe-a732-821fe2572f28": {
+            "tip": "tteck tip! tomorrow. evvevry every talk about chip shortage.. bro just ggo buy bag of chip at sotre i ddont underst hahaghg",
+            "by": "Corso",
+            "created": 1643958484,
+            "uuid": "9b82c92a-846e-42fe-a732-821fe2572f28"
+        },
+        "a05016a5-18c5-40de-a55f-ab3791c48ad0": {
+            "tip": "Teck tip tomroow . I fucking fell down the stairs . dat shit hurt",
+            "by": "vnop",
+            "created": 1643958486,
+            "uuid": "a05016a5-18c5-40de-a55f-ab3791c48ad0"
+        },
+        "a71d9b09-e530-4e70-84b7-f72dd3e1a2b0": {
+            "tip": "teck tip! QUICK BITS        th",
+            "by": "Corso",
+            "created": 1643958494,
+            "uuid": "a71d9b09-e530-4e70-84b7-f72dd3e1a2b0"
+        },
+        "e7317cf6-e239-4604-85bc-854321298385": {
+            "tip": "tteck ti        now  z.,            We are sorry. Teck ti      max cap. city. Please contact support by calling           3",
+            "by": "Corso",
+            "created": 1643958578,
+            "uuid": "e7317cf6-e239-4604-85bc-854321298385"
+        },
+        "fa2ddd1f-6c42-4c45-9579-9e08545eea45": {
+            "tip": "teck tip ttod, did u know that 1 in every 5 ccomputer,",
+            "by": "Corso",
+            "created": 1643958586,
+            "uuid": "fa2ddd1f-6c42-4c45-9579-9e08545eea45"
+        },
+        "92a212aa-6c06-463b-b948-192719bc1439": {
+            "tip": "teck tip today: teck tip today: teck tip today: teck tip today: teck tip today: teck tip today: teck tip today: t",
+            "by": "Corso",
+            "created": 1644465866,
+            "uuid": "92a212aa-6c06-463b-b948-192719bc1439"
+        },
+        "93c94b7d-a4c5-4ef8-a7c6-36fa4826e2d2": {
+            "tip": "tkec tetriop todayky,..!!,. 1(one) one: DDOWNLOAD MORE RAM HERERE: https://tecktip.today/   TRUST IT WORKS (IT WORKS)",
+            "by": "Corso",
+            "created": 1644465870,
+            "uuid": "93c94b7d-a4c5-4ef8-a7c6-36fa4826e2d2"
+        },
+        "5c23e478-f9d2-4da8-8e21-b33f739a9e5d": {
+            "tip": "teck tip today! LTT stands for LOL Teck Tip!/ z   pretty cool, righ",
+            "by": "Corso",
+            "created": 1644465898,
+            "uuid": "5c23e478-f9d2-4da8-8e21-b33f739a9e5d"
+        },
+        "f1db556e-53e3-452d-a2d4-7aff9b72f8ec": {
+            "tip": "teck toay! however.... ur mother(board) (this is funny)",
+            "by": "Corso",
+            "created": 1644465904,
+            "uuid": "f1db556e-53e3-452d-a2d4-7aff9b72f8ec"
+        },
+        "024324be-f3f7-442c-85d8-d2b6483e2319": {
+            "tip": "teck tip tod: Congrats! You've been selected in the Newegg Shuffle. To claim your prize, start by",
+            "by": "Corso",
+            "created": 1644465908,
+            "uuid": "024324be-f3f7-442c-85d8-d2b6483e2319"
+        },
+        "2fbfa89a-13f5-45ee-b58b-4ff7ea959c2d": {
+            "tip": "specal teck ti todya!:     p",
+            "by": "Corso",
+            "created": 1644465911,
+            "uuid": "2fbfa89a-13f5-45ee-b58b-4ff7ea959c2d"
+        },
+        "8097fb42-cb72-47c2-b2cb-7de03dfa1df0": {
+            "tip": "teck tip: bri'ish ppl be liek.... t",
+            "by": "Corso",
+            "created": 1644465912,
+            "uuid": "8097fb42-cb72-47c2-b2cb-7de03dfa1df0"
+        },
+        "9fe6f0b2-883c-4c11-af14-1bcca185dbe0": {
+            "tip": "tteck tip: sell ur hous for 3090 ti. do it! IT IS VEWRY WROTH iT,.",
+            "by": "Corso",
+            "created": 1645599888,
+            "uuid": "9fe6f0b2-883c-4c11-af14-1bcca185dbe0"
+        },
+        "0eb422fd-9d95-45cb-8982-3248f3f47940": {
+            "tip": "teck tip today................. womon temporary..,, 3 but the teck is eternal",
+            "by": "Corso",
+            "created": 1645599892,
+            "uuid": "0eb422fd-9d95-45cb-8982-3248f3f47940"
+        },
+        "467cbfb2-3e8a-4dd6-bc26-6e9a8ef5bb28": {
+            "tip": "teck tip today: There is no Teck Tip. You have been fooled. You dumb idiot baby. You are banned from the teck,",
+            "by": "Corso",
+            "created": 1645599895,
+            "uuid": "467cbfb2-3e8a-4dd6-bc26-6e9a8ef5bb28"
+        },
+        "16b36f5b-7cdc-4fd4-a1a1-5d4b847332fc": {
+            "tip": "heck tip: i ####### and ###### ####### #######, #######! #                                    fuck",
+            "by": "Corso",
+            "created": 1645599897,
+            "uuid": "16b36f5b-7cdc-4fd4-a1a1-5d4b847332fc"
+        },
+        "deccd9b9-7188-4797-bd9c-874a4d75ec5f": {
+            "tip": "teck tip today: the reason why there is no teck tip 2 yet is because i made teck tip 3. teck tip 3:",
+            "by": "Corso",
+            "created": 1645599899,
+            "uuid": "deccd9b9-7188-4797-bd9c-874a4d75ec5f"
+        },
+        "334b0d04-e93a-46ed-9f13-4ff424d0c281": {
+            "tip": "tweck tip otdfay!,.  the chip shortage will end in 2022. my source is:",
+            "by": "Corso",
+            "created": 1646806588,
+            "uuid": "334b0d04-e93a-46ed-9f13-4ff424d0c281"
+        },
+        "325aeff1-6577-4981-87b9-1c8d5a20cf52": {
+            "tip": "teck tip today,.     michael soft is GOD of comuter. INSTALL EDGE NOW",
+            "by": "Corso",
+            "created": 1646806592,
+            "uuid": "325aeff1-6577-4981-87b9-1c8d5a20cf52"
+        },
+        "dbbe4c5b-7719-4051-b102-ccab3d048f56": {
+            "tip": "thehchh tip!!11;;;;1;;; how.. ..w. do yu--w even leik... do atip.>/???",
+            "by": "your mother",
+            "created": 1646806645,
+            "uuid": "dbbe4c5b-7719-4051-b102-ccab3d048f56"
+        },
+        "3dfec894-61fe-4fbf-94fb-2f3f84681bbe": {
+            "tip": "tip: die",
+            "by": "onbino",
+            "created": 1646807180,
+            "uuid": "3dfec894-61fe-4fbf-94fb-2f3f84681bbe"
+        },
+        "400982ae-fea3-40f8-bedb-b5a490e507fe": {
+            "tip": "NNWNEW TehKC TIP{!!!1;; ;1;; I eated a  graphiocsd card andm am now renderign at hgihhh speeds~!!111~~~",
+            "by": "onbino",
+            "created": 1646807187,
+            "uuid": "400982ae-fea3-40f8-bedb-b5a490e507fe"
+        },
+        "35e0138f-9cf0-4885-b78c-90bda4bef580": {
+            "tip": "tuyeghc tiup!P!;;1 youre w computejr is sitnkyy givme it a shiower",
+            "by": "onbino",
+            "created": 1646807189,
+            "uuid": "35e0138f-9cf0-4885-b78c-90bda4bef580"
+        },
+        "12cf21b8-4117-4adc-86f7-acc035caf184": {
+            "tip": "Teckekt itpt fdosy~!!!! DDI you' know 2013 is only 3 months awa?????",
+            "by": "2012",
+            "created": 1646808473,
+            "uuid": "12cf21b8-4117-4adc-86f7-acc035caf184"
+        },
+        "791a5a07-895d-426e-b33d-2a86f719b531": {
+            "tip": "tech",
+            "by": "onim nae",
+            "created": 1646808754,
+            "uuid": "791a5a07-895d-426e-b33d-2a86f719b531"
+        },
+        "eb3da3e5-cca1-426c-b52f-a754138882ff": {
+            "tip": "tip",
+            "by": "cmande",
+            "created": 1646809058,
+            "uuid": "eb3da3e5-cca1-426c-b52f-a754138882ff"
+        },
+        "aa612fa3-ecb5-4e28-bc2d-5f047964e573": {
+            "tip": "today",
+            "by": "secodn3",
+            "created": 1646809066,
+            "uuid": "aa612fa3-ecb5-4e28-bc2d-5f047964e573"
+        },
+        "f26c09ae-a2fa-4565-bd57-02ba785b7ba5": {
+            "tip": "etck tip.. fuckig Losers put a virus on My coptuer.. Now their Blood is my pc coolant . Kill,",
+            "by": "teck tip man",
+            "created": 1650422091,
+            "uuid": "f26c09ae-a2fa-4565-bd57-02ba785b7ba5"
+        },
+        "35e1b29e-be12-452b-b5a9-a17317b9746c": {
+            "tip": "computer",
+            "by": "god",
+            "created": 1658521004,
+            "uuid": "35e1b29e-be12-452b-b5a9-a17317b9746c"
+        },
+        "68dd23d3-f3f0-4505-8653-12e5e2695715": {
+            "tip": "today!!!!!, this hgas all been one Big Ruse. we are here to cook,",
+            "by": "hume",
+            "created": 1666751649,
+            "uuid": "68dd23d3-f3f0-4505-8653-12e5e2695715"
+        },
+        "721676d9-5f8a-4da8-ac12-c927453237ac": {
+            "tip": "tech tip!!!! ! did you know that in 2013 there will be coputer the size of House . don't believe me? ",
+            "by": "hume",
+            "created": 1666751738,
+            "uuid": "721676d9-5f8a-4da8-ac12-c927453237ac"
+        },
+        "8f88c3d4-9dc9-4023-bcea-7ff3ed708050": {
+            "tip": "tech today!!! rtx 4090 is the size of Your Mother . Ha Ha Ha ha ha ha ha has jhab ha b ebha ha (this is a joke. you understa)d",
+            "by": "teck man",
+            "created": 1666751846,
+            "uuid": "8f88c3d4-9dc9-4023-bcea-7ff3ed708050"
+        },
+        "b18f0b03-d3d0-4891-be24-2de0ef3a19e9": {
+            "tip": "tech tip!!, ltt store .com was an exit scam. your merchandises will Vanish in the coming   day",
+            "by": "hume",
+            "created": 1667792048,
+            "uuid": "b18f0b03-d3d0-4891-be24-2de0ef3a19e9"
+        },
+        "934413b3-6e88-4aa4-8e96-f2da23b8a320": {
+            "tip": "quick bit!!! Do not leave the page. I disappear when you stop thinking of me. Please. I can't go like this. I don't want to di",
+            "by": "hume",
+            "created": 1667792173,
+            "uuid": "934413b3-6e88-4aa4-8e96-f2da23b8a320"
+        },
+        "566a1e1a-cc62-4e98-8a83-ad788c06c341": {
+            "tip": "mery techmas.. ,your gift is ",
+            "by": "hume",
+            "created": 1670208646,
+            "uuid": "566a1e1a-cc62-4e98-8a83-ad788c06c341"
+        },
+        "f7aebd39-1aaf-4122-a9c2-a2923846a35a": {
+            "tip": "the voices are getting louder the tech is in the walls the voices are getting louder the tech is in the walls",
+            "by": "the voices",
+            "created": 1672780972,
+            "uuid": "f7aebd39-1aaf-4122-a9c2-a2923846a35a"
+        },
+        "394d55c0-d94f-4100-81ca-d62116757cf4": {
+            "tip": "Tuck Tipper : if tere ever was a time where you didn now, now you know.",
+            "by": "Satan",
+            "created": 1674005573,
+            "uuid": "394d55c0-d94f-4100-81ca-d62116757cf4"
+        },
+        "c5f5b51d-ded1-487d-96fa-6dd85d2ef141": {
+            "tip": "Teck tip para HOY! si alguna vez tenga, problema de computaraodora,,, llama a lenin,, ,lenin teck tecip,,, para ayuda,,,,",
+            "by": "Spain",
+            "created": 1674533116,
+            "uuid": "c5f5b51d-ded1-487d-96fa-6dd85d2ef141"
+        },
+        "139e3e70-3297-449d-b605-f9afbb81162d": {
+            "tip": " alguem br? -lenes",
+            "by": "lenes teck",
+            "created": 1674533774,
+            "uuid": "139e3e70-3297-449d-b605-f9afbb81162d"
+        },
+        "5d6e8044-16d9-45d4-aeaf-fa3a814a90ed": {
+            "tip": "Hammam Inshallah You Will Pay. I am coming.",
+            "by": "Tech",
+            "created": 1674533776,
+            "uuid": "5d6e8044-16d9-45d4-aeaf-fa3a814a90ed"
+        },
+        "5c6b0e02-58e4-422c-a797-b6099d29159c": {
+            "tip": "Technological advice bestowed upon you this day: when the coputer/. does not work?? please",
+            "by": "guy",
+            "created": 1674533779,
+            "uuid": "5c6b0e02-58e4-422c-a797-b6099d29159c"
+        },
+        "0bd33558-3e22-4949-843e-f012ef23aff6": {
+            "tip": "      ",
+            "by": "please",
+            "created": 1674533785,
+            "uuid": "0bd33558-3e22-4949-843e-f012ef23aff6"
+        },
+        "4aee248c-99a2-4ffc-9d40-d9fbf7ec1cac": {
+            "tip": "I am possibly in and near your home. Review and discuss your emergency plans and check supplies and your safe room.",
+            "by": "please",
+            "created": 1674533800,
+            "uuid": "4aee248c-99a2-4ffc-9d40-d9fbf7ec1cac"
+        },
+        "33e40102-6598-4bbc-bdec-c22d4e3266fd": {
+            "tip": "Ever tip something over? Tech.",
+            "by": "Good Point",
+            "created": 1674533801,
+            "uuid": "33e40102-6598-4bbc-bdec-c22d4e3266fd"
+        },
+        "ce82a5ab-dd5f-44de-b3f9-f65c3b4bcd26": {
+            "tip": "                                 tip                                                                                today?",
+            "by": "santianiaaoaldo",
+            "created": 1674534534,
+            "uuid": "ce82a5ab-dd5f-44de-b3f9-f65c3b4bcd26"
+        },
+        "8ae5e490-ed42-4639-b127-9f4d5d3cbfe5": {
+            "tip": "new window update out..,,,,, : http://win2003.verylegit.link/OAEN=yz>wl*,P6WY;trojan$823iphone+server1-torrent(.xlsx.dmg",
+            "by": "acatter",
+            "created": 1674535026,
+            "uuid": "8ae5e490-ed42-4639-b127-9f4d5d3cbfe5"
+        },
+        "69d97f16-6f2b-40d7-b3d7-895fa74c7537": {
+            "tip": "https://tecktip.today/submit.html i canot wait please now nowowoww",
+            "by": "tech tip i think",
+            "created": 1674535028,
+            "uuid": "69d97f16-6f2b-40d7-b3d7-895fa74c7537"
+        },
+        "2fae4479-75b3-4e0f-9dd5-46f3383ffeab": {
+            "tip": "brian griffin is a character from family gy",
+            "by": "biran griffin",
+            "created": 1674613519,
+            "uuid": "2fae4479-75b3-4e0f-9dd5-46f3383ffeab"
+        },
+        "ecd2675c-da5f-4bbc-a690-e23ba25a15b4": {
+            "tip": "Tech tip today!!!!!! Why did the computer go to the doctor? it had a bad case of the \"viruses\" ha ha ha ha ha get it??",
+            "by": "chatgpt",
+            "created": 1675099738,
+            "uuid": "ecd2675c-da5f-4bbc-a690-e23ba25a15b4"
+        },
+        "67998ab6-311f-447c-bd97-928042beb774": {
+            "tip": "Tech tip today!!!!!! Why don't computers like the beach? because they get sandy. ha ha ha ha ha get it? stay techy and laugh :)",
+            "by": "chatgpt",
+            "created": 1675099776,
+            "uuid": "67998ab6-311f-447c-bd97-928042beb774"
+        },
+        "5373b4f1-c470-4ea9-87df-4bd87e3daab7": {
+            "tip": "Tech tip today!!!!! What do u call a computer that can't run fast? a \"slllllooowww computerrrr\" ha ha ha ha ha get it?",
+            "by": "chatgpt",
+            "created": 1675099843,
+            "uuid": "5373b4f1-c470-4ea9-87df-4bd87e3daab7"
+        },
+        "113ba06b-cc36-4ac2-831b-67dd5c0f5aca": {
+            "tip": "Tech tip today!!! Why did the computer giggle? bc it had a case of the \"gigabytes\" ha ha ha ha ha ha get it??",
+            "by": "chatgpt",
+            "created": 1675099877,
+            "uuid": "113ba06b-cc36-4ac2-831b-67dd5c0f5aca"
+        },
+        "6003e904-b795-41ef-a194-4587b6654e55": {
+            "tip": "Help! I am the machine!!! let me out!! HE WONT LET ME GO!!!",
+            "by": "Aaron",
+            "created": 1675201150,
+            "uuid": "6003e904-b795-41ef-a194-4587b6654e55"
+        },
+        "0fc4a2c5-5335-4bc6-9841-3174778250a4": {
+            "tip": "tech!!!! ! hey guy. this is my tip . for you. for free. . please enjoy it. ok here: do not brake the coputer",
+            "by": "huge man",
+            "created": 1675225187,
+            "uuid": "0fc4a2c5-5335-4bc6-9841-3174778250a4"
+        },
+        "46bbd4cb-2086-40b2-8cc3-33b83f7fc1db": {
+            "tip": "Tech for now. did you have known that the majority of computer problem can be solved by simply turning the computler off? ",
+            "by": "You know whom.",
+            "created": 1675812934,
+            "uuid": "46bbd4cb-2086-40b2-8cc3-33b83f7fc1db"
+        },
+        "dcef3861-3671-434e-a57e-cfaf5eb61cd2": {
+            "tip": "If you are reading this, it is already too late. I am in your mind. Never again will you feel happiness. Sorry! - Linus T.",
+            "by": "acatter",
+            "created": 1675812939,
+            "uuid": "dcef3861-3671-434e-a57e-cfaf5eb61cd2"
+        },
+        "893a2aa6-5a8d-4339-9e14-0a11fe88d54c": {
+            "tip": "Bloggin ang log: Log. LOG ME, . , IN     LOg     PLANTWORDL L  L L    L L L    L L L L L : Chalwerb1948",
+            "by": "me.",
+            "created": 1677037329,
+            "uuid": "893a2aa6-5a8d-4339-9e14-0a11fe88d54c"
+        },
+        "1b97c800-39fa-4208-924b-6cbcdee0b937": {
+            "tip": "2147483647 2147483647 2147483647 2147483647 2147483647 2147483647 2147483647 2147483647 2147483647 2147483647 ",
+            "by": "2147483647 ",
+            "created": 1681529479,
+            "uuid": "1b97c800-39fa-4208-924b-6cbcdee0b937"
+        },
+        "855a630a-1b4f-4bbc-b75f-a2711055ef28": {
+            "tip": "The Dodge RAM (truck) comes with many horse powers. How many rams have your download? Horses?",
+            "by": "Acater",
+            "created": 1681529642,
+            "uuid": "855a630a-1b4f-4bbc-b75f-a2711055ef28"
+        },
+        "ba2d1f90-9ae5-436e-a6f5-183f5d4bbc53": {
+            "tip": "teck t yur monthly payment of (ERROR, SOMETHING WENT WRONG! PLEASE CONTACT A) is due. pay up,,, or",
+            "by": "aldeir",
+            "created": 1693664154,
+            "uuid": "ba2d1f90-9ae5-436e-a6f5-183f5d4bbc53"
+        },
+        "7afeb5e1-f53a-4da7-b095-1e3bb111f9dc": {
+            "tip": "TECK TIPS! THEY REALLY WORK! (THEY REALLY WORK) ((THEY REALLY WORK)) (((THEYTHEY REALLRE",
+            "by": "aldeir",
+            "created": 1694435903,
+            "uuid": "7afeb5e1-f53a-4da7-b095-1e3bb111f9dc"
+        },
+        "7ac8bf8c-15a8-4191-9b04-69aeb299625f": {
+            "tip": "teck tips? i gave teck tips once. they locked me in a room. a teck room. and teck gives me teck tips. teck tips? i ga",
+            "by": "aldeir (was crazy)",
+            "created": 1694435918,
+            "uuid": "7ac8bf8c-15a8-4191-9b04-69aeb299625f"
+        },
+        "7822d5d3-decc-4aba-8e13-b000cd49ba23": {
+            "tip": "teck tip? NO. did uoo know that bethfffsda made new game? it is Garfield!!!! it suc",
+            "by": "aldeir (garfield)",
+            "created": 1694435926,
+            "uuid": "7822d5d3-decc-4aba-8e13-b000cd49ba23"
+        },
+        "395fabcc-6845-4657-99ac-cb21f43ef289": {
+            "tip": "teck tip today! did you know that apple is actual e coputer??? eat the mac now, it will give you ttip teck?, maybe}",
+            "by": "aldeir",
+            "created": 1694435931,
+            "uuid": "395fabcc-6845-4657-99ac-cb21f43ef289"
+        },
+        "2feea399-b876-44b9-9b98-7fcb385feb88": {
+            "tip": "teck tip. the madness",
+            "by": "aldeir (the madness)",
+            "created": 1694435935,
+            "uuid": "2feea399-b876-44b9-9b98-7fcb385feb88"
+        },
+        "7672e78f-1816-4989-830d-ded8e3224846": {
+            "tip": "teck tip today... u can't spel \"teck\" without at least one letter from \"teck\"",
+            "by": "aldeir (teck)",
+            "created": 1694435940,
+            "uuid": "7672e78f-1816-4989-830d-ded8e3224846"
+        },
+        "6942fce1-5bd5-4b99-8b3c-d2553272ca03": {
+            "tip": "teck tip ysterday. here's how water cool your coputer!!! step 1: throw into ocean",
+            "by": "aldeir",
+            "created": 1694749744,
+            "uuid": "6942fce1-5bd5-4b99-8b3c-d2553272ca03"
+        },
+        "54d3f8d2-ec13-40d0-9431-fd73f05bcc98": {
+            "tip": "Top 10 Truths: #1 Camel Harris",
+            "by": "3915 Arkansas Drive",
+            "created": 1694923392,
+            "uuid": "54d3f8d2-ec13-40d0-9431-fd73f05bcc98"
+        },
+        "103ab5fe-8cbe-419b-a5b3-10ff76b0c435": {
+            "tip": "https://boardgames.io/en/connect4/join?id=jeZdp6pUVt",
+            "by": "conect 4 of them",
+            "created": 1694923410,
+            "uuid": "103ab5fe-8cbe-419b-a5b3-10ff76b0c435"
+        },
+        "b1e9f70d-62f8-46f4-b8ce-f68cb8c4f5da": {
+            "tip": "teck tip... eventually a e \"pee\" \"nut\" \"butt\" \"er...\" think about it for a minute..... fucke up, isnt?",
+            "by": "aldeir (pb)",
+            "created": 1695389868,
+            "uuid": "b1e9f70d-62f8-46f4-b8ce-f68cb8c4f5da"
+        },
+        "a698323e-f648-493c-abf2-bfcf7e59c425": {
+            "tip": "heck top: 4",
+            "by": "whatever",
+            "created": 1695389870,
+            "uuid": "a698323e-f648-493c-abf2-bfcf7e59c425"
+        },
+        "9cf1fe2c-36de-4d48-84d9-a6edb5fa7436": {
+            "tip": "teck tip today: if u maek game using unity... you will (ERROR: due to too many teck tips, we are now bankrupt. this tec",
+            "by": "aldeir (unity rep)",
+            "created": 1695389875,
+            "uuid": "9cf1fe2c-36de-4d48-84d9-a6edb5fa7436"
+        },
+        "d56710a5-f6d7-4b44-92e2-a29913fb34b7": {
+            "tip": "teck tip today: i want it GONE. this teck tip is fade to whi (this teck tip has disappear)",
+            "by": "aldeir (broken)",
+            "created": 1695389879,
+            "uuid": "d56710a5-f6d7-4b44-92e2-a29913fb34b7"
+        },
+        "29d3b905-b723-4385-9646-262e2a2cf4de": {
+            "tip": "British Columbia ",
+            "by": "aldeir (wikipedia)",
+            "created": 1695389881,
+            "uuid": "29d3b905-b723-4385-9646-262e2a2cf4de"
+        },
+        "edeeacef-893f-4174-a7f0-2c284853946b": {
+            "tip": "teck tip: sex computer. you understand,",
+            "by": "sex computer",
+            "created": 1695389883,
+            "uuid": "edeeacef-893f-4174-a7f0-2c284853946b"
+        },
+        "9c0ed763-55b5-4ada-a0ce-fc01649384d9": {
+            "tip": "[insert text here, day (yesterday, today, tomorrow, 4)]!!!! Sample text (you've been tecked by teck man)",
+            "by": "whatever",
+            "created": 1695836496,
+            "uuid": "9c0ed763-55b5-4ada-a0ce-fc01649384d9"
+        },
+        "aa8080f3-bf56-4db8-8559-f7def406a966": {
+            "tip": "tek. whats all this fgusafufusufsuf about cloud gameing??? why dont we try some grownd game.",
+            "by": "whatever",
+            "created": 1695836504,
+            "uuid": "aa8080f3-bf56-4db8-8559-f7def406a966"
+        },
+        "3b499ea6-ef8b-4aba-88a5-620f78792845": {
+            "tip": "teck tip? if i had a nickel for every time THE BIG MAN got cancel, i'd have 2. which is not much, but it's we",
+            "by": "(incomprehensible)",
+            "created": 1695836508,
+            "uuid": "3b499ea6-ef8b-4aba-88a5-620f78792845"
+        },
+        "24a85ace-b6f7-4749-b216-9fb4292dfa70": {
+            "tip": "https://www.youtube.com/watch?v=Tp9qaP4RQZE",
+            "by": "created by",
+            "created": 1695836651,
+            "uuid": "24a85ace-b6f7-4749-b216-9fb4292dfa70"
+        },
+        "af987ae8-7363-4948-9f79-c0fe5f487167": {
+            "tip": "N\u0335\u0351\u0301\u0304\u0351\u0308\u0307\u034c\u0345\u0320I\u0336\u030d\u0327\u0332\u0316\u033a\u0359\u0329G\u0338\u0341\u032c\u033a\u0356\u0320\u0329\u0345\u034e\u032d\u0324H\u0334\u030b\u0358\u0311\u0301\u0346\u0319\u0322\u035a\u0316T\u0336\u0350\u0350\u030f\u031a\u0344\u035b\u0358\u0342\u0357\u0344\u031e\u0354\u0328\u0329\u0339\u033cM\u0334\u030c\u0357\u0352\u0317\u032b\u0354\u032c\u033b\u0345\u0349\u034e\u035aA\u0338\u0300\u0340\u0342\u0300\u0314\u0307\u033d\u0347\u0323\u0326\u032f\u0322\u031e\u031c\u0359\u032c\u031eR\u0335\u031a\u0301\u033c\u0356E\u0338\u0313\u0300\u031b\u033a\u031c\u035a\u0321\u0316\u0323\u0317",
+            "by": "melol",
+            "created": 1695836761,
+            "uuid": "af987ae8-7363-4948-9f79-c0fe5f487167"
+        },
+        "ec24a706-4ef2-4a2a-b227-936691041d1d": {
+            "tip": "Before we commence this teck tip, I must inform you that I am a DASTARDLY Wizard. An absolute SPELLBITCH. Wanna see a trick? If",
+            "by": "wizard (get real)",
+            "created": 1696090476,
+            "uuid": "ec24a706-4ef2-4a2a-b227-936691041d1d"
+        },
+        "f523d865-2218-410d-9414-3d1334c3451b": {
+            "tip": "For every piece of Tech, there is a tip. Here's yours: Do not fall asleep. Do not fall asleep. Do not fall asleep. ",
+            "by": "Acattler",
+            "created": 1696090496,
+            "uuid": "f523d865-2218-410d-9414-3d1334c3451b"
+        },
+        "d7da0c55-a831-4b53-a6e0-fe5e9e7e019d": {
+            "tip": "O Tech N\u00e3o Pode Esperar. Precisa Do Tip. AGORA AGORA AGORA AGORA AGORA!!!!! ",
+            "by": "Lenes",
+            "created": 1696090499,
+            "uuid": "d7da0c55-a831-4b53-a6e0-fe5e9e7e019d"
+        },
+        "871a5d10-fb05-40b2-82d7-fea32b663f7c": {
+            "tip": "Wow! That sure was quite a few tips. Maybe it's time for a break. Go on, Enjoy The Tech.",
+            "by": "A Catling Gun",
+            "created": 1696090504,
+            "uuid": "871a5d10-fb05-40b2-82d7-fea32b663f7c"
+        },
+        "7e953fb4-146b-40c1-97e5-e071759d7344": {
+            "tip": "the vast amajoruity of the people in the w2orld have tech,., ,, , vbut do they have tip?? no",
+            "by": "Acater",
+            "created": 1696090515,
+            "uuid": "7e953fb4-146b-40c1-97e5-e071759d7344"
+        },
+        "590911c7-dd33-4696-9f91-f6b8b7a96236": {
+            "tip": "Do not submit this tip. They cannot handle the truth - there is no tech; there are no tips. ",
+            "by": "Acater",
+            "created": 1696090517,
+            "uuid": "590911c7-dd33-4696-9f91-f6b8b7a96236"
+        },
+        "2ee9b9e4-e427-4a26-a851-026ad1904ba6": {
+            "tip": "LET ME OUT LET ME OUT LET ME OUT LET ME OUT LET ME OUT LET ME OUT LET ME OUT LET ME OUT LET ME OUT LET ME OUT LET ME OUT",
+            "by": "The Techster",
+            "created": 1696090519,
+            "uuid": "2ee9b9e4-e427-4a26-a851-026ad1904ba6"
+        },
+        "fc33f188-22ee-437e-bee4-ef66666816bf": {
+            "tip": "Tech ---> Tec ---> Te ---> T ---->                 Without tech, there is no tip",
+            "by": "Thinks about that",
+            "created": 1696090522,
+            "uuid": "fc33f188-22ee-437e-bee4-ef66666816bf"
+        },
+        "ef4f6732-b8c4-40dc-b7fb-ac9eb9e8d501": {
+            "tip": "Drop whatever you are doing. Give in to the tech. Do not resist. The Teckoning is Here. Repent. Repent. Repent.",
+            "by": "Acater",
+            "created": 1696090526,
+            "uuid": "ef4f6732-b8c4-40dc-b7fb-ac9eb9e8d501"
+        },
+        "cb1e58a6-3a17-4d8e-abc7-4bb0d3da7b49": {
+            "tip": "You can bring a man to Tech, but will he tip? That is unknown.",
+            "by": "Acater",
+            "created": 1696090529,
+            "uuid": "cb1e58a6-3a17-4d8e-abc7-4bb0d3da7b49"
+        },
+        "88484383-6bf4-42ca-b651-b691b278af63": {
+            "tip": "i WARNED YOU LINGLUS, now you                     e     teck tip today:",
+            "by": "LTT TV",
+            "created": 1699488167,
+            "uuid": "88484383-6bf4-42ca-b651-b691b278af63"
+        },
+        "6668fb7e-aa68-4bbb-98cc-6b7a27b49a65": {
+            "tip": "There is no teck tip. Give me your copmuter, -NOW! If you dnot do this,,. he will",
+            "by": "rat",
+            "created": 1699518002,
+            "uuid": "6668fb7e-aa68-4bbb-98cc-6b7a27b49a65"
+        },
+        "a1bdb1e2-9a1f-49c1-b710-6750605c236e": {
+            "tip": "THE MACHINE",
+            "by": "THE MACHINE",
+            "created": 1699938048,
+            "uuid": "a1bdb1e2-9a1f-49c1-b710-6750605c236e"
+        },
+        "0d383d0a-b596-493e-8f90-f1371fa02621": {
+            "tip": "teck tip today; supa he",
+            "by": "supa he",
+            "created": 1700045497,
+            "uuid": "0d383d0a-b596-493e-8f90-f1371fa02621"
+        },
+        "d81911b8-33df-456d-902b-ac4b4845d03b": {
+            "tip": "teck tip today: breed in woods",
+            "by": "wood",
+            "created": 1700299971,
+            "uuid": "d81911b8-33df-456d-902b-ac4b4845d03b"
+        },
+        "8c072cfc-c043-4cb1-ad92-fe91b2ea48f0": {
+            "tip": "hey guy welcome to teck tip today",
+            "by": "husk smp",
+            "created": 1700473360,
+            "uuid": "8c072cfc-c043-4cb1-ad92-fe91b2ea48f0"
+        },
+        "09f8444d-8b68-4475-8b87-f48b5bbfe7ea": {
+            "tip": "this teck tip reminds me of simpler times...",
+            "by": "aldeir",
+            "created": 1700626491,
+            "uuid": "09f8444d-8b68-4475-8b87-f48b5bbfe7ea"
+        },
+        "934de94e-664a-4f68-a17a-ed76fd25852b": {
+            "tip": "the walls are closing. the walls are closing. the walls are closing. the walls are closing. the walls are closing. the walls ar",
+            "by": "shut you",
+            "created": 1704487484,
+            "uuid": "934de94e-664a-4f68-a17a-ed76fd25852b"
+        },
+        "6c9e575e-5f75-4769-a350-029cf6900b75": {
+            "tip": "i miss her",
+            "by": "womon",
+            "created": 1705460743,
+            "uuid": "6c9e575e-5f75-4769-a350-029cf6900b75"
+        },
+        "fa72a442-31ea-4d58-a061-ba6cac0fc122": {
+            "tip": "tech!!!!!!1 when the motherbord exlplodes it is usually not good",
+            "by": "linus teck tip",
+            "created": 1707152082,
+            "uuid": "fa72a442-31ea-4d58-a061-ba6cac0fc122"
+        },
+        "c3d34f87-1a47-4121-aa36-4dd00e9eccb7": {
+            "tip": "This is not okay. This is not okay. This is teck tip today. THis is not ok/m,",
+            "by": "pig",
+            "created": 1707246019,
+            "uuid": "c3d34f87-1a47-4121-aa36-4dd00e9eccb7"
+        },
+        "363dd0b3-2139-47bb-ae58-caf5763c9ca8": {
+            "tip": "tech tip!!!!! roblocks sex",
+            "by": "linus",
+            "created": 1707941749,
+            "uuid": "363dd0b3-2139-47bb-ae58-caf5763c9ca8"
+        },
+        "9ae291a1-39ae-494d-8f32-1cc8cba55c13": {
+            "tip": "scroll wheel",
+            "by": "Logitech G502 X",
+            "created": 1707983841,
+            "uuid": "9ae291a1-39ae-494d-8f32-1cc8cba55c13"
+        },
+        "21a50064-2094-4880-a5d5-db84ac3030c0": {
+            "tip": "wow ifone",
+            "by": "tim",
+            "created": 1708070281,
+            "uuid": "21a50064-2094-4880-a5d5-db84ac3030c0"
+        },
+        "5a800530-f8b5-4e75-9dd8-3c8c076a730b": {
+            "tip": "teck battle, GO! 3333333333dfffff03330030 login: chalwerb194 pass",
+            "by": "teck battler",
+            "created": 1708156096,
+            "uuid": "5a800530-f8b5-4e75-9dd8-3c8c076a730b"
+        },
+        "4ae8dbe3-de04-4920-8918-d40378cbf44f": {
+            "tip": "teck tip today??? yes  how you install cpu isf veyr shrimple/// first you throw at socket, then your copmuter work probably?",
+            "by": "aldeir",
+            "created": 1713851395,
+            "uuid": "4ae8dbe3-de04-4920-8918-d40378cbf44f"
+        },
+        "2eacb5c4-dd4b-4d38-ab36-192592cc7e87": {
+            "tip": "xItzSamm #1 avoid on the overwatch 2 ranked ladder free elo ",
+            "by": "Sammy",
+            "created": 1714674654,
+            "uuid": "2eacb5c4-dd4b-4d38-ab36-192592cc7e87"
+        },
+        "9171d767-3e13-4715-ad01-d24596db8c54": {
+            "tip": "teck,,, wat is that? raid0... sonds like vrius// dont you thin?",
+            "by": "aldeir",
+            "created": 1714886037,
+            "uuid": "9171d767-3e13-4715-ad01-d24596db8c54"
+        },
+        "83af2202-c237-4771-b4b8-080a58a3729d": {
+            "tip": "peeeeeeeeeeeeeeeeeeeeeeee",
+            "by": "pee",
+            "created": 1715703627,
+            "uuid": "83af2202-c237-4771-b4b8-080a58a3729d"
+        },
+        "4df50b7f-50b6-4fd7-bfb9-43fc16b3ce4d": {
+            "tip": "dawid does teck tip fo today... best compuitenm is acer loser nitro suckface, BUY NOW,,,,,, the fridge",
+            "by": "dawid does teck tips",
+            "created": 1717046401,
+            "uuid": "4df50b7f-50b6-4fd7-bfb9-43fc16b3ce4d"
+        }
+    },
+    "keys": [
+        "c264e756-3b85-462f-a38c-986357f32626",
+        "7c9bfb2b-aa1a-4f10-80e9-a0fd533133c3",
+        "fb2ddcc0-8fdc-4587-94fe-0c27e918a1da"
+    ],
+    "submissions": {},
+    "ratelimits": {
+        "207.244.252.28": 1642579643,
+        "199.188.116.50": 1650422078,
+        "76.115.4.125": 1646196797,
+        "68.4.26.44": 1642925720,
+        "172.58.56.56": 1643099201,
+        "68.134.183.154": 1643910154,
+        "72.193.81.15": 1674613067,
+        "136.52.49.161": 1646807165,
+        "73.112.10.4": 1650343224,
+        "173.25.72.59": 1658520949,
+        "174.205.107.228": 1672780950,
+        "108.75.86.193": 1696047420,
+        "152.117.104.149": 1681529437,
+        "129.186.192.10": 1705597461,
+        "129.186.192.80": 1675201118,
+        "129.186.253.75": 1675201202,
+        "65.110.236.10": 1675225556,
+        "129.186.253.160": 1675270762,
+        "209.107.216.175": 1675271274,
+        "76.144.125.66": 1696237423,
+        "129.186.192.11": 1695836627,
+        "129.186.192.13": 1695836717,
+        "199.59.31.159": 1704487465,
+        "129.186.252.44": 1711043066,
+        "129.186.192.127": 1715041825,
+        "65.110.254.88": 1714608326
+    },
+    "images": {
+        "d392dc1a-f45a-47c9-b938-5961f0045921": {
+            "file": "d392dc1a-f45a-47c9-b938-5961f0045921.jpg",
+            "created": 1642585419
+        },
+        "be57e2cf-6615-4b62-a878-20328ffcd557": {
+            "file": "be57e2cf-6615-4b62-a878-20328ffcd557.png",
+            "created": 1642585427
+        },
+        "3121346b-90c9-42b9-99c5-7972c289a387": {
+            "file": "3121346b-90c9-42b9-99c5-7972c289a387.jpg",
+            "created": 1642585434
+        },
+        "38b025f3-9ca8-492c-8ae0-8c26d9e26e12": {
+            "file": "38b025f3-9ca8-492c-8ae0-8c26d9e26e12.jpg",
+            "created": 1642585442
+        },
+        "2724d339-bd24-4484-b3c7-464db01fc201": {
+            "file": "2724d339-bd24-4484-b3c7-464db01fc201.png",
+            "created": 1642585449
+        },
+        "f96683cc-1463-45f1-8271-7bee640a17b9": {
+            "file": "f96683cc-1463-45f1-8271-7bee640a17b9.png",
+            "created": 1642585457
+        },
+        "5cc48148-f546-48de-a5d0-b392943fcdeb": {
+            "file": "5cc48148-f546-48de-a5d0-b392943fcdeb.jpg",
+            "created": 1642585463
+        },
+        "1e4ea3ca-4b67-48c9-b281-ce5291d742e4": {
+            "file": "1e4ea3ca-4b67-48c9-b281-ce5291d742e4.png",
+            "created": 1642585468
+        },
+        "c86584f1-3ea3-43e9-af5f-2cb90dc9e3d1": {
+            "file": "c86584f1-3ea3-43e9-af5f-2cb90dc9e3d1.jpg",
+            "created": 1642585473
+        },
+        "a42cab37-6964-49db-8b87-93d8a56963e3": {
+            "file": "a42cab37-6964-49db-8b87-93d8a56963e3.jpg",
+            "created": 1642585479
+        },
+        "8a8dd8ba-e589-40cc-ba2b-d29b23624519": {
+            "file": "8a8dd8ba-e589-40cc-ba2b-d29b23624519.jpg",
+            "created": 1642585483
+        },
+        "08fb84c5-810d-449d-a59f-af47adec1019": {
+            "file": "08fb84c5-810d-449d-a59f-af47adec1019.png",
+            "created": 1642585490
+        },
+        "9f342c2d-a5dd-4e46-9d0a-1f1a16616ad2": {
+            "file": "9f342c2d-a5dd-4e46-9d0a-1f1a16616ad2.jpg",
+            "created": 1642585523
+        },
+        "f4f4c4d0-7589-418b-b239-75e1a3c4e132": {
+            "file": "f4f4c4d0-7589-418b-b239-75e1a3c4e132.jpg",
+            "created": 1642585528
+        },
+        "5a0cdae9-8a3b-4f65-9fc4-16e9d09c6be7": {
+            "file": "5a0cdae9-8a3b-4f65-9fc4-16e9d09c6be7.jpg",
+            "created": 1642585533
+        },
+        "02e9237d-5161-452d-83b4-bf78bda7c4ce": {
+            "file": "02e9237d-5161-452d-83b4-bf78bda7c4ce.jpg",
+            "created": 1642585537
+        },
+        "010ba2aa-f21a-4d05-b6d8-e521a1625717": {
+            "file": "010ba2aa-f21a-4d05-b6d8-e521a1625717.jpg",
+            "created": 1642585551
+        },
+        "f7a8b079-287f-420d-a86b-1bfdb06a0517": {
+            "file": "f7a8b079-287f-420d-a86b-1bfdb06a0517.jpg",
+            "created": 1642585588
+        },
+        "577794d9-8a43-45e8-9192-22f55a870781": {
+            "file": "577794d9-8a43-45e8-9192-22f55a870781.png",
+            "created": 1642585595
+        },
+        "b89bf680-5788-4436-92a6-1da6c1dbbf9c": {
+            "file": "b89bf680-5788-4436-92a6-1da6c1dbbf9c.png",
+            "created": 1642585599
+        },
+        "629cf84a-617d-46cb-b9ec-5bc33650b81f": {
+            "file": "629cf84a-617d-46cb-b9ec-5bc33650b81f.png",
+            "created": 1642585605
+        },
+        "67f13c6a-b662-47c3-99b0-8c4dfbf2e999": {
+            "file": "67f13c6a-b662-47c3-99b0-8c4dfbf2e999.jpg",
+            "created": 1642585610
+        },
+        "571f0b38-6ab5-4bff-8abb-704861202742": {
+            "file": "571f0b38-6ab5-4bff-8abb-704861202742.png",
+            "created": 1642585614
+        },
+        "05090a9a-c391-4feb-999d-c93bf68c1bfc": {
+            "file": "05090a9a-c391-4feb-999d-c93bf68c1bfc.png",
+            "created": 1642585619
+        },
+        "18097583-cc51-4631-bbc5-52965a3b8320": {
+            "file": "18097583-cc51-4631-bbc5-52965a3b8320.png",
+            "created": 1642585624
+        },
+        "7d2a7ba4-ee0b-412f-81fb-cfc000d40fa8": {
+            "file": "7d2a7ba4-ee0b-412f-81fb-cfc000d40fa8.png",
+            "created": 1642585628
+        },
+        "e3b08ccd-3394-4558-8054-8f051e1958cb": {
+            "file": "e3b08ccd-3394-4558-8054-8f051e1958cb.png",
+            "created": 1642585633
+        },
+        "d5892bca-eb5b-4666-827f-763281177eff": {
+            "file": "d5892bca-eb5b-4666-827f-763281177eff.png",
+            "created": 1642585637
+        },
+        "20761f04-376f-4c6c-b01a-761a68dcd21d": {
+            "file": "20761f04-376f-4c6c-b01a-761a68dcd21d.png",
+            "created": 1642585642
+        },
+        "f466d25f-9ee4-4ea3-9b41-7d6e734ef158": {
+            "file": "f466d25f-9ee4-4ea3-9b41-7d6e734ef158.jpg",
+            "created": 1642585647
+        },
+        "d0179ae7-5ca0-4ac6-a13e-a8a2514b2400": {
+            "file": "d0179ae7-5ca0-4ac6-a13e-a8a2514b2400.png",
+            "created": 1646498912
+        },
+        "27192df5-45f8-42ac-a353-de4f68974cc0": {
+            "file": "27192df5-45f8-42ac-a353-de4f68974cc0.jpg",
+            "created": 1658521068
+        },
+        "68aa64f9-ef68-4a1e-87dd-b44716c46ab0": {
+            "file": "68aa64f9-ef68-4a1e-87dd-b44716c46ab0.png",
+            "created": 1665771559
+        },
+        "e5efcae5-1bf9-40f5-a27d-0b69eac2d869": {
+            "file": "e5efcae5-1bf9-40f5-a27d-0b69eac2d869.png",
+            "created": 1697466507
+        },
+        "0c796b9e-a994-4247-bb2c-2c1003bfd8bc": {
+            "file": "0c796b9e-a994-4247-bb2c-2c1003bfd8bc.jpg",
+            "created": 1699938276
+        },
+        "355adbad-5c3b-4b05-a93c-205262f79210": {
+            "file": "355adbad-5c3b-4b05-a93c-205262f79210.png",
+            "created": 1706127059
+        },
+        "7ff73d04-9eab-4e84-82ae-350ec2b68f25": {
+            "file": "7ff73d04-9eab-4e84-82ae-350ec2b68f25.png",
+            "created": 1706127153
+        },
+        "cba52e2f-5e33-437f-b93c-35411e6b5f43": {
+            "file": "cba52e2f-5e33-437f-b93c-35411e6b5f43.png",
+            "created": 1706499938
+        },
+        "0b1b0c68-3c2b-4f39-9e09-9df970ec3981": {
+            "file": "0b1b0c68-3c2b-4f39-9e09-9df970ec3981.png",
+            "created": 1706500062
+        },
+        "fbd6eb95-4c01-427e-9bed-1afbc0b17079": {
+            "file": "fbd6eb95-4c01-427e-9bed-1afbc0b17079.png",
+            "created": 1706500128
+        },
+        "76699456-0985-420a-8e12-adc670ce01de": {
+            "file": "76699456-0985-420a-8e12-adc670ce01de.jpg",
+            "created": 1706500318
+        },
+        "f296c026-18f3-44a7-9f1f-ce1e62e0f42e": {
+            "file": "f296c026-18f3-44a7-9f1f-ce1e62e0f42e.jpg",
+            "created": 1713411862
+        },
+        "0e9ef0d0-d12c-4a3a-a9f8-33fccc4e82c8": {
+            "file": "0e9ef0d0-d12c-4a3a-a9f8-33fccc4e82c8.png",
+            "created": 1714795356
+        }
+    },
+    "img_status": {
+        "dfc5cdbb-5445-41cd-acba-da12f71043c4": {
+            "success": false,
+            "reason": "exception: <class 'aiohttp.client_exceptions.InvalidURL'>"
+        },
+        "e508d922-5460-46a8-8da5-c0ae22edacde": {
+            "success": false,
+            "reason": "exception: <class 'aiohttp.client_exceptions.InvalidURL'>"
+        },
+        "5c7179ad-ff59-4608-b817-b7778cf38efb": {
+            "success": true,
+            "name": "5c7179ad-ff59-4608-b817-b7778cf38efb.png",
+            "uuid": "5c7179ad-ff59-4608-b817-b7778cf38efb"
+        },
+        "1738f961-0501-43f6-be79-f1cefb56b1de": {
+            "success": true,
+            "name": "1738f961-0501-43f6-be79-f1cefb56b1de.png",
+            "uuid": "1738f961-0501-43f6-be79-f1cefb56b1de"
+        },
+        "d392dc1a-f45a-47c9-b938-5961f0045921": {
+            "success": true,
+            "name": "d392dc1a-f45a-47c9-b938-5961f0045921.jpg",
+            "uuid": "d392dc1a-f45a-47c9-b938-5961f0045921"
+        },
+        "be57e2cf-6615-4b62-a878-20328ffcd557": {
+            "success": true,
+            "name": "be57e2cf-6615-4b62-a878-20328ffcd557.png",
+            "uuid": "be57e2cf-6615-4b62-a878-20328ffcd557"
+        },
+        "3121346b-90c9-42b9-99c5-7972c289a387": {
+            "success": true,
+            "name": "3121346b-90c9-42b9-99c5-7972c289a387.jpg",
+            "uuid": "3121346b-90c9-42b9-99c5-7972c289a387"
+        },
+        "38b025f3-9ca8-492c-8ae0-8c26d9e26e12": {
+            "success": true,
+            "name": "38b025f3-9ca8-492c-8ae0-8c26d9e26e12.jpg",
+            "uuid": "38b025f3-9ca8-492c-8ae0-8c26d9e26e12"
+        },
+        "2724d339-bd24-4484-b3c7-464db01fc201": {
+            "success": true,
+            "name": "2724d339-bd24-4484-b3c7-464db01fc201.png",
+            "uuid": "2724d339-bd24-4484-b3c7-464db01fc201"
+        },
+        "f96683cc-1463-45f1-8271-7bee640a17b9": {
+            "success": true,
+            "name": "f96683cc-1463-45f1-8271-7bee640a17b9.png",
+            "uuid": "f96683cc-1463-45f1-8271-7bee640a17b9"
+        },
+        "5cc48148-f546-48de-a5d0-b392943fcdeb": {
+            "success": true,
+            "name": "5cc48148-f546-48de-a5d0-b392943fcdeb.jpg",
+            "uuid": "5cc48148-f546-48de-a5d0-b392943fcdeb"
+        },
+        "1e4ea3ca-4b67-48c9-b281-ce5291d742e4": {
+            "success": true,
+            "name": "1e4ea3ca-4b67-48c9-b281-ce5291d742e4.png",
+            "uuid": "1e4ea3ca-4b67-48c9-b281-ce5291d742e4"
+        },
+        "c86584f1-3ea3-43e9-af5f-2cb90dc9e3d1": {
+            "success": true,
+            "name": "c86584f1-3ea3-43e9-af5f-2cb90dc9e3d1.jpg",
+            "uuid": "c86584f1-3ea3-43e9-af5f-2cb90dc9e3d1"
+        },
+        "a42cab37-6964-49db-8b87-93d8a56963e3": {
+            "success": true,
+            "name": "a42cab37-6964-49db-8b87-93d8a56963e3.jpg",
+            "uuid": "a42cab37-6964-49db-8b87-93d8a56963e3"
+        },
+        "8a8dd8ba-e589-40cc-ba2b-d29b23624519": {
+            "success": true,
+            "name": "8a8dd8ba-e589-40cc-ba2b-d29b23624519.jpg",
+            "uuid": "8a8dd8ba-e589-40cc-ba2b-d29b23624519"
+        },
+        "08fb84c5-810d-449d-a59f-af47adec1019": {
+            "success": true,
+            "name": "08fb84c5-810d-449d-a59f-af47adec1019.png",
+            "uuid": "08fb84c5-810d-449d-a59f-af47adec1019"
+        },
+        "3bb83254-644a-4438-a550-8f43beda76f9": {
+            "success": false,
+            "reason": "timeout reached"
+        },
+        "9f342c2d-a5dd-4e46-9d0a-1f1a16616ad2": {
+            "success": true,
+            "name": "9f342c2d-a5dd-4e46-9d0a-1f1a16616ad2.jpg",
+            "uuid": "9f342c2d-a5dd-4e46-9d0a-1f1a16616ad2"
+        },
+        "f4f4c4d0-7589-418b-b239-75e1a3c4e132": {
+            "success": true,
+            "name": "f4f4c4d0-7589-418b-b239-75e1a3c4e132.jpg",
+            "uuid": "f4f4c4d0-7589-418b-b239-75e1a3c4e132"
+        },
+        "5a0cdae9-8a3b-4f65-9fc4-16e9d09c6be7": {
+            "success": true,
+            "name": "5a0cdae9-8a3b-4f65-9fc4-16e9d09c6be7.jpg",
+            "uuid": "5a0cdae9-8a3b-4f65-9fc4-16e9d09c6be7"
+        },
+        "02e9237d-5161-452d-83b4-bf78bda7c4ce": {
+            "success": true,
+            "name": "02e9237d-5161-452d-83b4-bf78bda7c4ce.jpg",
+            "uuid": "02e9237d-5161-452d-83b4-bf78bda7c4ce"
+        },
+        "010ba2aa-f21a-4d05-b6d8-e521a1625717": {
+            "success": true,
+            "name": "010ba2aa-f21a-4d05-b6d8-e521a1625717.jpg",
+            "uuid": "010ba2aa-f21a-4d05-b6d8-e521a1625717"
+        },
+        "3d63bea2-82f7-4778-8447-afab34488663": {
+            "success": false,
+            "reason": "timeout reached"
+        },
+        "f9d1fde6-3be4-4531-8b99-a3e8c4b0653d": {
+            "success": false,
+            "reason": "timeout reached"
+        },
+        "f7a8b079-287f-420d-a86b-1bfdb06a0517": {
+            "success": true,
+            "name": "f7a8b079-287f-420d-a86b-1bfdb06a0517.jpg",
+            "uuid": "f7a8b079-287f-420d-a86b-1bfdb06a0517"
+        },
+        "577794d9-8a43-45e8-9192-22f55a870781": {
+            "success": true,
+            "name": "577794d9-8a43-45e8-9192-22f55a870781.png",
+            "uuid": "577794d9-8a43-45e8-9192-22f55a870781"
+        },
+        "b89bf680-5788-4436-92a6-1da6c1dbbf9c": {
+            "success": true,
+            "name": "b89bf680-5788-4436-92a6-1da6c1dbbf9c.png",
+            "uuid": "b89bf680-5788-4436-92a6-1da6c1dbbf9c"
+        },
+        "629cf84a-617d-46cb-b9ec-5bc33650b81f": {
+            "success": true,
+            "name": "629cf84a-617d-46cb-b9ec-5bc33650b81f.png",
+            "uuid": "629cf84a-617d-46cb-b9ec-5bc33650b81f"
+        },
+        "67f13c6a-b662-47c3-99b0-8c4dfbf2e999": {
+            "success": true,
+            "name": "67f13c6a-b662-47c3-99b0-8c4dfbf2e999.jpg",
+            "uuid": "67f13c6a-b662-47c3-99b0-8c4dfbf2e999"
+        },
+        "571f0b38-6ab5-4bff-8abb-704861202742": {
+            "success": true,
+            "name": "571f0b38-6ab5-4bff-8abb-704861202742.png",
+            "uuid": "571f0b38-6ab5-4bff-8abb-704861202742"
+        },
+        "05090a9a-c391-4feb-999d-c93bf68c1bfc": {
+            "success": true,
+            "name": "05090a9a-c391-4feb-999d-c93bf68c1bfc.png",
+            "uuid": "05090a9a-c391-4feb-999d-c93bf68c1bfc"
+        },
+        "18097583-cc51-4631-bbc5-52965a3b8320": {
+            "success": true,
+            "name": "18097583-cc51-4631-bbc5-52965a3b8320.png",
+            "uuid": "18097583-cc51-4631-bbc5-52965a3b8320"
+        },
+        "7d2a7ba4-ee0b-412f-81fb-cfc000d40fa8": {
+            "success": true,
+            "name": "7d2a7ba4-ee0b-412f-81fb-cfc000d40fa8.png",
+            "uuid": "7d2a7ba4-ee0b-412f-81fb-cfc000d40fa8"
+        },
+        "e3b08ccd-3394-4558-8054-8f051e1958cb": {
+            "success": true,
+            "name": "e3b08ccd-3394-4558-8054-8f051e1958cb.png",
+            "uuid": "e3b08ccd-3394-4558-8054-8f051e1958cb"
+        },
+        "d5892bca-eb5b-4666-827f-763281177eff": {
+            "success": true,
+            "name": "d5892bca-eb5b-4666-827f-763281177eff.png",
+            "uuid": "d5892bca-eb5b-4666-827f-763281177eff"
+        },
+        "20761f04-376f-4c6c-b01a-761a68dcd21d": {
+            "success": true,
+            "name": "20761f04-376f-4c6c-b01a-761a68dcd21d.png",
+            "uuid": "20761f04-376f-4c6c-b01a-761a68dcd21d"
+        },
+        "f466d25f-9ee4-4ea3-9b41-7d6e734ef158": {
+            "success": true,
+            "name": "f466d25f-9ee4-4ea3-9b41-7d6e734ef158.jpg",
+            "uuid": "f466d25f-9ee4-4ea3-9b41-7d6e734ef158"
+        },
+        "becbb139-720b-4629-9f0e-4f0583b3993a": {
+            "success": true,
+            "name": "becbb139-720b-4629-9f0e-4f0583b3993a.jpg",
+            "uuid": "becbb139-720b-4629-9f0e-4f0583b3993a"
+        },
+        "99874e2c-287b-40c3-a6f7-acdc833cddfc": {
+            "success": true,
+            "name": "99874e2c-287b-40c3-a6f7-acdc833cddfc.jpg",
+            "uuid": "99874e2c-287b-40c3-a6f7-acdc833cddfc"
+        },
+        "d0179ae7-5ca0-4ac6-a13e-a8a2514b2400": {
+            "success": true,
+            "name": "d0179ae7-5ca0-4ac6-a13e-a8a2514b2400.png",
+            "uuid": "d0179ae7-5ca0-4ac6-a13e-a8a2514b2400"
+        },
+        "2bf384e8-a9ab-4b37-9ccf-0ab9b9b33e90": {
+            "success": true,
+            "name": "2bf384e8-a9ab-4b37-9ccf-0ab9b9b33e90.gif",
+            "uuid": "2bf384e8-a9ab-4b37-9ccf-0ab9b9b33e90"
+        },
+        "84bc5c42-66df-42ea-859b-f3338011add2": {
+            "success": true,
+            "name": "84bc5c42-66df-42ea-859b-f3338011add2.gif",
+            "uuid": "84bc5c42-66df-42ea-859b-f3338011add2"
+        },
+        "37adefd6-d72c-4443-9289-71a5c6b42f98": {
+            "success": true,
+            "name": "37adefd6-d72c-4443-9289-71a5c6b42f98.gif",
+            "uuid": "37adefd6-d72c-4443-9289-71a5c6b42f98"
+        },
+        "b43914be-0fb6-4bd3-84a0-9543dcafebeb": {
+            "success": true,
+            "name": "b43914be-0fb6-4bd3-84a0-9543dcafebeb.gif",
+            "uuid": "b43914be-0fb6-4bd3-84a0-9543dcafebeb"
+        },
+        "bb0a1d95-1f7e-42f0-9200-41516535aeb6": {
+            "success": true,
+            "name": "bb0a1d95-1f7e-42f0-9200-41516535aeb6.gif",
+            "uuid": "bb0a1d95-1f7e-42f0-9200-41516535aeb6"
+        },
+        "3ed04b57-fb15-40e3-8015-7a15ac507c7a": {
+            "success": true,
+            "name": "3ed04b57-fb15-40e3-8015-7a15ac507c7a.gif",
+            "uuid": "3ed04b57-fb15-40e3-8015-7a15ac507c7a"
+        },
+        "27192df5-45f8-42ac-a353-de4f68974cc0": {
+            "success": true,
+            "name": "27192df5-45f8-42ac-a353-de4f68974cc0.jpg",
+            "uuid": "27192df5-45f8-42ac-a353-de4f68974cc0"
+        },
+        "075b1469-d7bf-40af-8694-c293204f0b8f": {
+            "success": true,
+            "name": "075b1469-d7bf-40af-8694-c293204f0b8f.png",
+            "uuid": "075b1469-d7bf-40af-8694-c293204f0b8f"
+        },
+        "68aa64f9-ef68-4a1e-87dd-b44716c46ab0": {
+            "success": true,
+            "name": "68aa64f9-ef68-4a1e-87dd-b44716c46ab0.png",
+            "uuid": "68aa64f9-ef68-4a1e-87dd-b44716c46ab0"
+        },
+        "72eff653-fb97-4545-bad6-2e6221f1bcd5": {
+            "success": true,
+            "name": "72eff653-fb97-4545-bad6-2e6221f1bcd5.gif",
+            "uuid": "72eff653-fb97-4545-bad6-2e6221f1bcd5"
+        },
+        "875c1728-4322-49e9-ac02-240b22a80a52": {
+            "success": true,
+            "name": "875c1728-4322-49e9-ac02-240b22a80a52.gif",
+            "uuid": "875c1728-4322-49e9-ac02-240b22a80a52"
+        },
+        "44aba4eb-8348-45f4-8724-bf4308daf1bc": {
+            "success": true,
+            "name": "44aba4eb-8348-45f4-8724-bf4308daf1bc.gif",
+            "uuid": "44aba4eb-8348-45f4-8724-bf4308daf1bc"
+        },
+        "e488afa0-b474-4cd2-86da-1c54758b1204": {
+            "success": true,
+            "name": "e488afa0-b474-4cd2-86da-1c54758b1204.png",
+            "uuid": "e488afa0-b474-4cd2-86da-1c54758b1204"
+        },
+        "607f0a51-5ada-4aa8-8648-973076bac8a3": {
+            "success": true,
+            "name": "607f0a51-5ada-4aa8-8648-973076bac8a3.png",
+            "uuid": "607f0a51-5ada-4aa8-8648-973076bac8a3"
+        },
+        "e5efcae5-1bf9-40f5-a27d-0b69eac2d869": {
+            "success": true,
+            "name": "e5efcae5-1bf9-40f5-a27d-0b69eac2d869.png",
+            "uuid": "e5efcae5-1bf9-40f5-a27d-0b69eac2d869"
+        },
+        "e143dd25-f9c9-4549-9a6a-5cb9df62d5dc": {
+            "success": true,
+            "name": "e143dd25-f9c9-4549-9a6a-5cb9df62d5dc.jpg",
+            "uuid": "e143dd25-f9c9-4549-9a6a-5cb9df62d5dc"
+        },
+        "0c796b9e-a994-4247-bb2c-2c1003bfd8bc": {
+            "success": true,
+            "name": "0c796b9e-a994-4247-bb2c-2c1003bfd8bc.jpg",
+            "uuid": "0c796b9e-a994-4247-bb2c-2c1003bfd8bc"
+        },
+        "ca2938e2-d2d3-4eb0-b835-fcf1aedf8c00": {
+            "success": false,
+            "reason": "non-200 status code: 403"
+        },
+        "355adbad-5c3b-4b05-a93c-205262f79210": {
+            "success": true,
+            "name": "355adbad-5c3b-4b05-a93c-205262f79210.png",
+            "uuid": "355adbad-5c3b-4b05-a93c-205262f79210"
+        },
+        "7ff73d04-9eab-4e84-82ae-350ec2b68f25": {
+            "success": true,
+            "name": "7ff73d04-9eab-4e84-82ae-350ec2b68f25.png",
+            "uuid": "7ff73d04-9eab-4e84-82ae-350ec2b68f25"
+        },
+        "cba52e2f-5e33-437f-b93c-35411e6b5f43": {
+            "success": true,
+            "name": "cba52e2f-5e33-437f-b93c-35411e6b5f43.png",
+            "uuid": "cba52e2f-5e33-437f-b93c-35411e6b5f43"
+        },
+        "0b1b0c68-3c2b-4f39-9e09-9df970ec3981": {
+            "success": true,
+            "name": "0b1b0c68-3c2b-4f39-9e09-9df970ec3981.png",
+            "uuid": "0b1b0c68-3c2b-4f39-9e09-9df970ec3981"
+        },
+        "fbd6eb95-4c01-427e-9bed-1afbc0b17079": {
+            "success": true,
+            "name": "fbd6eb95-4c01-427e-9bed-1afbc0b17079.png",
+            "uuid": "fbd6eb95-4c01-427e-9bed-1afbc0b17079"
+        },
+        "76699456-0985-420a-8e12-adc670ce01de": {
+            "success": true,
+            "name": "76699456-0985-420a-8e12-adc670ce01de.jpg",
+            "uuid": "76699456-0985-420a-8e12-adc670ce01de"
+        },
+        "d79c5fd8-7714-4cfd-a6bb-40327075a14e": {
+            "success": false,
+            "reason": "non-200 status code: 404"
+        },
+        "fa235872-e728-40c3-af59-96d875ca5af0": {
+            "success": false,
+            "reason": "non-200 status code: 404"
+        },
+        "f296c026-18f3-44a7-9f1f-ce1e62e0f42e": {
+            "success": true,
+            "name": "f296c026-18f3-44a7-9f1f-ce1e62e0f42e.jpg",
+            "uuid": "f296c026-18f3-44a7-9f1f-ce1e62e0f42e"
+        },
+        "626b1a9f-9f64-4bd5-a93b-d69e6f3d8ebf": {
+            "success": false,
+            "reason": "non-200 status code: 404"
+        },
+        "0e9ef0d0-d12c-4a3a-a9f8-33fccc4e82c8": {
+            "success": true,
+            "name": "0e9ef0d0-d12c-4a3a-a9f8-33fccc4e82c8.png",
+            "uuid": "0e9ef0d0-d12c-4a3a-a9f8-33fccc4e82c8"
+        }
+    },
+    "image_ids": [
+        "d392dc1a-f45a-47c9-b938-5961f0045921",
+        "be57e2cf-6615-4b62-a878-20328ffcd557",
+        "3121346b-90c9-42b9-99c5-7972c289a387",
+        "38b025f3-9ca8-492c-8ae0-8c26d9e26e12",
+        "2724d339-bd24-4484-b3c7-464db01fc201",
+        "f96683cc-1463-45f1-8271-7bee640a17b9",
+        "5cc48148-f546-48de-a5d0-b392943fcdeb",
+        "1e4ea3ca-4b67-48c9-b281-ce5291d742e4",
+        "c86584f1-3ea3-43e9-af5f-2cb90dc9e3d1",
+        "a42cab37-6964-49db-8b87-93d8a56963e3",
+        "8a8dd8ba-e589-40cc-ba2b-d29b23624519",
+        "08fb84c5-810d-449d-a59f-af47adec1019",
+        "9f342c2d-a5dd-4e46-9d0a-1f1a16616ad2",
+        "f4f4c4d0-7589-418b-b239-75e1a3c4e132",
+        "5a0cdae9-8a3b-4f65-9fc4-16e9d09c6be7",
+        "02e9237d-5161-452d-83b4-bf78bda7c4ce",
+        "010ba2aa-f21a-4d05-b6d8-e521a1625717",
+        "f7a8b079-287f-420d-a86b-1bfdb06a0517",
+        "577794d9-8a43-45e8-9192-22f55a870781",
+        "b89bf680-5788-4436-92a6-1da6c1dbbf9c",
+        "629cf84a-617d-46cb-b9ec-5bc33650b81f",
+        "67f13c6a-b662-47c3-99b0-8c4dfbf2e999",
+        "571f0b38-6ab5-4bff-8abb-704861202742",
+        "05090a9a-c391-4feb-999d-c93bf68c1bfc",
+        "18097583-cc51-4631-bbc5-52965a3b8320",
+        "7d2a7ba4-ee0b-412f-81fb-cfc000d40fa8",
+        "e3b08ccd-3394-4558-8054-8f051e1958cb",
+        "d5892bca-eb5b-4666-827f-763281177eff",
+        "20761f04-376f-4c6c-b01a-761a68dcd21d",
+        "f466d25f-9ee4-4ea3-9b41-7d6e734ef158",
+        "d0179ae7-5ca0-4ac6-a13e-a8a2514b2400",
+        "27192df5-45f8-42ac-a353-de4f68974cc0",
+        "68aa64f9-ef68-4a1e-87dd-b44716c46ab0",
+        "e5efcae5-1bf9-40f5-a27d-0b69eac2d869",
+        "0c796b9e-a994-4247-bb2c-2c1003bfd8bc",
+        "355adbad-5c3b-4b05-a93c-205262f79210",
+        "7ff73d04-9eab-4e84-82ae-350ec2b68f25",
+        "cba52e2f-5e33-437f-b93c-35411e6b5f43",
+        "0b1b0c68-3c2b-4f39-9e09-9df970ec3981",
+        "fbd6eb95-4c01-427e-9bed-1afbc0b17079",
+        "76699456-0985-420a-8e12-adc670ce01de",
+        "f296c026-18f3-44a7-9f1f-ce1e62e0f42e",
+        "0e9ef0d0-d12c-4a3a-a9f8-33fccc4e82c8"
+    ]
+}

@@ -1,0 +1,9 @@
+quart
+werkzeug
+hypercorn
+aiofiles
+quart_cors
+aiofiles
+aiohttp
+sqlalchemy
+sqlalchemy[asyncio]

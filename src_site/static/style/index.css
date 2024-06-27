@@ -1,0 +1,115 @@
+@import url("themes/light.css");
+@import url("panel.css");
+@import url("animations.css");
+@import url("images.css");
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    font-family: 'Secular One', sans-serif;
+}
+
+html {
+    height: 100%;
+    padding: 0px;
+    background-color: var(--theme-bg-color);
+    box-shadow: inset 0 0 10em 5em var(--theme-bg-color);
+    margin: 0px;
+    width: 100%;
+    background-size: 100% 100vh;
+}
+
+body.fullpage {
+    overflow: hidden;
+}
+
+body {
+    padding: 0px;
+    font-size: 32px;
+    height: 100px;
+    width: 100%;
+}
+
+div.footer {
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    width: 100%;
+}
+
+div.center {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+div.header {
+    padding: 100px 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10em;
+}
+
+h1.header {
+    justify-content: center;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 10px 10px 15px #fff, -10px -10px 15px #fff, -10px 10px 15px #fff, 10px -10px 15px #fff;
+} 
+
+.bigbutton {
+    background-color: var(--theme-highlight);
+    border-radius: 40px;
+    text-transform: lowercase;
+    color: var(--theme-bg-color);
+    padding: 20px 50px;
+    border: none;
+    font-size: 24px;
+    margin: 20px;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.bigbutton:hover {
+    opacity: 0.6;
+}
+
+#secondarybutton {
+    background-color: var(--theme-bg-alt-color);
+}
+
+
+input[type=password] {
+    width: 60%;
+    padding: 20px 50px;
+    font-size: 24px;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 3px solid var(--theme-highlight);
+    color: var(--theme-bg-alt-color);
+}
+
+p.error {
+    color: var(--theme-warning);
+    font-size: 18px;
+    text-align: left;
+    margin: 10px;
+}
+
+.status {
+    font-size: 24px;
+    text-align: center;
+}
+
+p.small {
+    font-size: 12px;
+}
+
+a.noshow {
+    color: var(--theme-bg-alt-color)
+}

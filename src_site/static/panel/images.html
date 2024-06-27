@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>panel login</title>
+
+        <link rel="stylesheet" href="/style/index.css">
+    
+        <script src="/js/lib/jquery-3.6.0.min.js"></script>
+        <script src="/js/login.js"></script>
+        <script src="/js/panel.js"></script>
+        <script src="/js/requests.js"></script>
+        <script src="/js/images.js"></script>
+    </head>
+
+    <body>
+        <div class="header" style="height: 10%">
+            <h1 class="header">images</h1>
+            <p class="info" id="status"></p>
+        </div>
+
+        <div class="center" id="buttons">
+            <input class="smallinput" id="newurl" placeholder="image url">
+            <button class="bigbutton" id="addimage" onclick="start_upload()">add</button>
+            <button class="bigbutton" id="secondarybutton" onclick="window.location.replace('https://tecktip.today/panel')">go back</button>
+        </div>
+        <div class="center">
+            <p class="error"></p>
+        </div>
+
+        <div class="images">
+        </div>
+
+        <script>
+            check_login("index");
+            populate_images();
+        </script>
+
+    </body>
+
+
+</html>

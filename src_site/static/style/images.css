@@ -1,0 +1,32 @@
+div.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.managesmall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+div.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: var(--theme-bg-alt-color);
+    border: none;
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin: 30px 0px;
+}
+
+img.bigimg {
+    border: none;
+    border-radius: 30px;
+    height: 15em;
+}

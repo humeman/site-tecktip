@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>panel login</title>
+
+        <link rel="stylesheet" href="/style/index.css">
+    
+        <script src="/js/lib/jquery-3.6.0.min.js"></script>
+        <script src="/js/requests.js"></script>
+        <script src="/js/login.js"></script>
+    </head>
+
+    <body>
+
+        <div class="header">
+            <h1 class="header">panel login</h1>
+        </div>
+
+        <div class="center" id="buttons">
+            <input class="smallinput" id="keyinput" type="password" placeholder="enter key"></input>
+            <button class="bigbutton" onclick="init_login()">log in</button>
+        </div>
+
+        <div class="center">
+            <p class="error" id="loginerror"></p>
+        </div>
+
+        <script>
+            check_login("login");
+        </script>
+
+    </body>
+
+
+</html>

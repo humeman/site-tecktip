@@ -1,0 +1,3 @@
+site_name: site-tecktip
+git_repo: github.com/humeman/site-tecktip
+node_version: "21"
