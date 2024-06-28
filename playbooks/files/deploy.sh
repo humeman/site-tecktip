@@ -37,6 +37,10 @@ nvm use {{ node_version }}
 
 # Build the server
 cd "$DOCROOT/repo/$TIME/src_site"
+cat << EOF > .env
+SITE_HOST={{ site_host }}
+API_PORT={{ api_port }}
+EOF
 npm i
 npm run build
 

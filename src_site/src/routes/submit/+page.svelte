@@ -1,6 +1,7 @@
 <script>
     import Container from "$lib/Container.svelte";
     import TeckPage from "$lib/TeckPage.svelte";
+    import { SITE_HOST, API_PORT } from '$env/static/public'
 
     import { goto } from "$app/navigation"
     import { browser } from "$app/environment"
@@ -27,7 +28,7 @@
         }
 
         fetch(
-            `https://${process.env.SITE_HOST}:8325/submit`,
+            `https://${SITE_HOST}:${API_PORT}/submit`,
             {
                 method: "POST",
                 headers: {

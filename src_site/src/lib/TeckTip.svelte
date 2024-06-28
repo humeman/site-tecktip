@@ -3,6 +3,7 @@
     import { writable } from 'svelte/store';
     import { autotip } from "$lib/Footer.svelte";
 	import { get } from 'svelte/store';
+    import { SITE_HOST, API_PORT } from '$env/static/public'
 
     export const bg_style = writable("");
     export const do_update = writable(false);
@@ -12,7 +13,7 @@
     export let opacity = 100;
 
     export let current_image = null;
-    let uri = `https://${process.env.SITE_HOST}:8325`;
+    let uri = `https://${SITE_HOST}:${API_PORT}`;
 
     export async function get_tip(err_counter = 0) {
         return fetch(uri)
