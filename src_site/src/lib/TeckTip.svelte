@@ -12,7 +12,7 @@
     export let opacity = 100;
 
     export let current_image = null;
-    let uri = "https://tecktip.today:8325";
+    let uri = `https://${process.env.SITE_HOST}:8325`;
 
     export async function get_tip(err_counter = 0) {
         return fetch(uri)

@@ -15,6 +15,7 @@ async def start():
     config = hypercorn.config.Config.from_toml("config.toml")
     config.certfile = os.getenv("HYPERCORN_CERTFILE")
     config.keyfile = os.getenv("HYPERCORN_KEYFILE")
+    config.bind = f"0.0.0.0:{os.getenv('PORT')}"
     global app
     app = Quart(__name__)
     app = cors(app, allow_origin = "*")

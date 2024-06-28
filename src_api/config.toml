@@ -1,6 +1,5 @@
 debug = true
 workers = 1
-bind = "0.0.0.0:8325"
 h2_max_concurrent_streams = 250
 keep_alive_timeout = 25
 user = "site-tecktip"

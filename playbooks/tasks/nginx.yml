@@ -134,3 +134,22 @@
     permissions: rx
     state: present
   become: true
+
+- name: Grant user {{ site_name }} certificate read access
+  ansible.posix.acl:
+    path: /etc/letsencrypt/archive
+    entity: "{{ site_name }}"
+    etype: user
+    permissions: rx
+    state: present
+  become: true
+
+- name: Grant user {{ site_name }} certificate read access
+  ansible.posix.acl:
+    path: /etc/letsencrypt/archive/{{ site_host }}
+    entity: "{{ site_name }}"
+    etype: user
+    recursive: true
+    permissions: rx
+    state: present
+  become: true

@@ -27,7 +27,7 @@
         }
 
         fetch(
-            `https://tecktip.today:8325/submit`,
+            `https://${process.env.SITE_HOST}:8325/submit`,
             {
                 method: "POST",
                 headers: {

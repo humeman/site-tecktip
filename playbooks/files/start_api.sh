@@ -20,4 +20,5 @@ export MYSQL_PASSWORD={{ sql["password"] }}
 export MYSQL_DB={{ sql["db"] }}
 export HYPERCORN_CERTFILE="/etc/letsencrypt/live/{{ site_host }}/fullchain.pem"
 export HYPERCORN_KEYFILE="/etc/letsencrypt/live/{{ site_host }}/privkey.pem"
+export PORT="{{ api_port }}"
 python3 main.py
