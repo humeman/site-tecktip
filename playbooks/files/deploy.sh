@@ -38,10 +38,11 @@ nvm use {{ node_version }}
 # Build the server
 cd "$DOCROOT/repo/$TIME/src_site"
 cat << EOF > .env
-SITE_HOST={{ site_host }}
-API_PORT={{ api_port }}
+PUBLIC_SITE_HOST={{ site_host }}
+PUBLIC_API_PORT={{ api_port }}
 EOF
 npm i
+npx @sveltejs/kit sync
 npm run build
 
 # Replace the active version
