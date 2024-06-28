@@ -1,5 +1,5 @@
 from quart import Blueprint, request
-from api.main import db
+import api
 from api.data import Tip, Image, Submission
 
 import time
@@ -10,7 +10,13 @@ rate_limits = {}
 
 @root_blueprint.route("/", methods = ["GET"])
 async def random_tip():
-    tip = await db.random(Tip)
+    tip = await api.main.db.random(Tip)
+    if tip is None:
+        return {
+            "success": False,
+            "reason": "no tips :("
+        }, 404
+
     if request.content_type == "application/json":
         return tip.as_dict()
     
@@ -19,7 +25,18 @@ async def random_tip():
 
 @root_blueprint.route("/img", methods = ["GET"])
 async def random_image():
-    return (await db.random(Image)).file
+    img = await api.main.db.random(Image)
+    if img is None:
+        return {
+            "success": False,
+            "reason": "no images :("
+        }, 404
+
+    if request.content_type == "application/json":
+        return img.as_dict()
+    
+    else:
+        return img.file
 
 @root_blueprint.route("/submit", methods = ["POST"])
 async def submit_tip():
@@ -45,7 +62,7 @@ async def submit_tip():
             "reason": "tip must be between 3 and 128 characters"
         }, 400
     
-    name = args.get("by")
+    name = args.get("name")
     if type(name) != str:
         return {
             "success": False,
@@ -70,10 +87,10 @@ async def submit_tip():
     rate_limits[addr] = time.time()
 
     _id = str(uuid.uuid4())
-    await db.upsert(
+    await api.main.db.upsert(
         Submission(
             id = _id,
-            at = time.time(),
+            created = time.time(),
             ip = addr,
             by = name,
             tip = tip

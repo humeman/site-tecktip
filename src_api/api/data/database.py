@@ -109,7 +109,6 @@ class Database:
 
     async def random(self, objtype: Type[T]) -> T:
         async with self._session_maker() as session:
-            if type(session) != AsyncSession: return # Type hinting sucks
             result = await session.execute(
                 sqlalchemy.select(objtype).order_by(sqlalchemy.func.random()).limit(1)
             )
@@ -117,7 +116,6 @@ class Database:
         
     async def get(self, objtype: Type[T], where: ColumnExpressionArgument) -> int:
         async with self._session_maker() as session:
-            if type(session) != AsyncSession: return
             result = await session.execute(
                 sqlalchemy.select(objtype).where(where)
             )
@@ -125,7 +123,6 @@ class Database:
 
     async def count(self, objtype: Type[T]) -> int:
         async with self._session_maker() as session:
-            if type(session) != AsyncSession: return
             result = await session.execute(
                 sqlalchemy.select(sqlalchemy.func.count()).select_from(objtype)
             )
@@ -133,7 +130,6 @@ class Database:
         
     async def list_paginated(self, objtype: Type[T], col: sqlalchemy.Column, page: int = 0) -> List[T]:
         async with self._session_maker() as session:
-            if type(session) != AsyncSession: return
             result: Result[Any] = await session.execute(
                 sqlalchemy.select(objtype).order_by(col).offset(page * 50).limit(50)
             )
@@ -141,7 +137,6 @@ class Database:
         
     async def list_all(self, objtype: Type[T]) -> List[T]:
         async with self._session_maker() as session:
-            if type(session) != AsyncSession: return
             result: Result[Any] = await session.execute(
                 sqlalchemy.select(objtype)
             )
@@ -149,13 +144,11 @@ class Database:
         
     async def upsert(self, obj: T) -> None:
         async with self._session_maker() as session:
-            if type(session) != AsyncSession: return
             session.add(obj)
             await session.commit()
         
     async def delete(self, obj: T) -> None:
         async with self._session_maker() as session:
-            if type(session) != AsyncSession: return
             await session.delete(obj)
             await session.commit()
 
@@ -173,6 +166,4 @@ class Database:
         self._connected = True
 
     async def __aexit__(self, *args, **kwargs) -> None:
-        self._pool.close()
-        await self._pool.wait_closed()
         self._connected = False

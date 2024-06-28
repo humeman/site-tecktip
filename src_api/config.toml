@@ -5,5 +5,5 @@ h2_max_concurrent_streams = 250
 keep_alive_timeout = 25
 user = "camden"
 max_app_queue_size = 20
-certfile = "/etc/letsencrypt/live/tecktip.today/fullchain.pem"
-keyfile = "/etc/letsencrypt/live/tecktip.today/privkey.pem"
+#certfile = "/etc/letsencrypt/live/tecktip.today/fullchain.pem"
+#keyfile = "/etc/letsencrypt/live/tecktip.today/privkey.pem"

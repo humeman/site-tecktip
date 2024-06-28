@@ -36,7 +36,7 @@
                 body: JSON.stringify(
                     {
                         tip: tip,
-                        by: by
+                        name: by
                     }
                 )
             })

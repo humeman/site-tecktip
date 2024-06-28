@@ -7,3 +7,4 @@ aiofiles
 aiohttp
 sqlalchemy
 sqlalchemy[asyncio]
+aiomysql

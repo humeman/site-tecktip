@@ -18,7 +18,7 @@
 
     function goto_submit() {
         if (browser) {
-            goto("newsubmit")
+            goto("submit")
         }
     }
 </script>
