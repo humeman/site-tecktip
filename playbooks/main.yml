@@ -13,6 +13,9 @@
 
     - name: Set up Nginx
       include_tasks: tasks/nginx.yml
+      
+    - name: Set up firewall rules
+      include_tasks: tasks/firewall.yml
 
     - name: Set up systemd service
       include_tasks: tasks/systemd.yml

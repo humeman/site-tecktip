@@ -16,35 +16,43 @@
     let uri = `https://${PUBLIC_SITE_HOST}:${PUBLIC_API_PORT}`;
 
     export async function get_tip(err_counter = 0) {
-        return fetch(uri)
-            .then( response => response.text())
-            .then( text => {
-                return text
-            })
-            .catch( err => {
-                err_counter++;
+        let res;
+        try {
+            res = await fetch(uri);
+        } catch (e) {
+            console.error(e)
+            err_counter++;
 
-                if (err_counter > 10) {
-                    return null;
-                }
-                return get_tip(err_counter);
-            })
+            if (err_counter > 3) {
+                return null;
+            }
+            await new Promise(r => setTimeout(r, 500));
+            return await get_tip(err_counter);
+        }
+        if (res.status != 200) {
+            return "error: the teck man is broken :(";
+        }
+        return await response.text();
     }
 
-    export function get_img(err_counter = 0) {
-        return fetch(`${uri}/img`)
-            .then( response => response.text())
-            .then( text => {
-                return text
-            })
-            .catch( err => {
-                err_counter++;
+    export async function get_img(err_counter = 0) {
+        let res;
+        try {
+            res = await fetch(`${uri}/img`);
+        } catch (e) {
+            console.error(e)
+            err_counter++;
 
-                if (err_counter > 10) {
-                    return null;
-                }
-                return get_img(err_counter);
-            })
+            if (err_counter > 3) {
+                return null;
+            }
+            await new Promise(r => setTimeout(r, 500));
+            return await get_tip(err_counter);
+        }
+        if (res.status != 200) {
+            return null;
+        }
+        return await response.text();
     }
 
     export function set_img() {
