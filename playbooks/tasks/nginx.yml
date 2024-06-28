@@ -115,3 +115,22 @@
     enabled: true
   become: true
   when: nginx_site.changed or nginx_cdn_site.changed
+
+- name: Grant user {{ site_name }} certificate read access
+  ansible.posix.acl:
+    path: /etc/letsencrypt/live
+    entity: "{{ site_name }}"
+    etype: user
+    permissions: rx
+    state: present
+  become: true
+
+- name: Grant user {{ site_name }} certificate read access
+  ansible.posix.acl:
+    path: /etc/letsencrypt/live/{{ site_host }}
+    entity: "{{ site_name }}"
+    etype: user
+    recursive: true
+    permissions: rx
+    state: present
+  become: true
