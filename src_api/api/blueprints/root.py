@@ -1,14 +1,14 @@
 from quart import Blueprint, request
-from .. import db
-from ..io.database import Tip, Image, Submission
+from api.main import db
+from api.data import Tip, Image, Submission
 
 import time
 import uuid
 
-root_page = Blueprint("root_page", __name__)
+root_blueprint = Blueprint("root_page", __name__)
 rate_limits = {}
 
-@root_page.route("/", methods = ["GET"])
+@root_blueprint.route("/", methods = ["GET"])
 async def random_tip():
     tip = await db.random(Tip)
     if request.content_type == "application/json":
@@ -17,11 +17,11 @@ async def random_tip():
     else:
         return tip.tip
 
-@root_page.route("/img", methods = ["GET"])
+@root_blueprint.route("/img", methods = ["GET"])
 async def random_image():
     return (await db.random(Image)).file
 
-@root_page.route("/submit", methods = ["POST"])
+@root_blueprint.route("/submit", methods = ["POST"])
 async def submit_tip():
     args = await request.json
     

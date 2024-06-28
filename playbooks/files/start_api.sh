@@ -8,7 +8,10 @@ readonly DOCROOT="/var/www/$NAME/api"
 
 cd $DOCROOT
 
-if [  ]
+if ! [ -d venv ]; then
+    python{{ dependency_versions[env]["python"] }} -m venv venv
+fi
 
 source venv/bin/activate
-hypercorn app
+pip3 install -r requirements.txt
+python3 main.py

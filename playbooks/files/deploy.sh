@@ -49,7 +49,7 @@ ln -s "$DOCROOT/repo/$TIME/src_site/build" "$DOCROOT/build"
 if [ -L "$DOCROOT/api" ]; then
     rm "$DOCROOT/api"
 fi
-ln -s "$DOCROOT/repo/$TIME/src_api" "$DOCROOT/api"
+ln -s -T "$DOCROOT/repo/$TIME/src_api" "$DOCROOT/api"
 
 if [ $old_ver -ne -1 ]; then
     rm -rf "$DOCROOT/repo/$old_ver"

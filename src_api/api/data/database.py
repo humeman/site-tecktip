@@ -37,10 +37,10 @@ class LegacyKey(Base):
 class User(Base):
     __tablename__ = "users"
     val = sqlalchemy.Column(sqlalchemy.String(64), primary_key = True)
-    id = sqlalchemy.Column(sqlalchemy.String(64), primary_key = True),
-    name = sqlalchemy.Column(sqlalchemy.String(32)),
-    email = sqlalchemy.Column(sqlalchemy.String(256)),
-    password = sqlalchemy.Column(sqlalchemy.String(256)),
+    id = sqlalchemy.Column(sqlalchemy.String(64), primary_key = True)
+    name = sqlalchemy.Column(sqlalchemy.String(32))
+    email = sqlalchemy.Column(sqlalchemy.String(256))
+    password = sqlalchemy.Column(sqlalchemy.String(256))
     admin = sqlalchemy.Column(sqlalchemy.Boolean)
 
 T = TypeVar("T", bound = Base)
@@ -60,7 +60,7 @@ class Database:
 
     def __init__(self) -> None:
         self._host = os.getenv("MYSQL_HOST")
-        self._port = int(os.getenv("MYSQL_PORT"))
+        self._port = int(os.getenv("MYSQL_PORT") or 3306)
         self._user = os.getenv("MYSQL_USER")
         self._password = os.getenv("MYSQL_PASSWORD")
         self._db = os.getenv("MYSQL_DB")

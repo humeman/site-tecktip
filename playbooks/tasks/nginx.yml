@@ -48,15 +48,6 @@
     state: directory
   become: true
 
-- name: Create API directory
-  ansible.builtin.file:
-    path: /var/www/{{ site_name }}/api
-    mode: "0500"
-    owner: "{{ site_name }}"
-    group: "{{ site_name }}"
-    state: directory
-  become: true
-
 - name: Create nginx site file
   ansible.builtin.template:
     src: ../files/nginx

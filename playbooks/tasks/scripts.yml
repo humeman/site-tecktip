@@ -27,8 +27,8 @@
 
 - name: Add templated script start_api.sh
   ansible.builtin.template:
-    src: ../files/start.sh
-    dest: /scripts/{{ site_name }}/start.sh
+    src: ../files/start_api.sh
+    dest: /scripts/{{ site_name }}/start_api.sh
     owner: "{{ site_name }}"
     group: "{{ site_name }}"
     mode: '0500'
@@ -36,7 +36,7 @@
 
 - name: Add templated script mysql.sh
   ansible.builtin.template:
-    src: ../files/start.sh
+    src: ../files/mysql.sh
     dest: /scripts/{{ site_name }}/mysql.sh
     mode: '0500'
   become: true
