@@ -32,7 +32,7 @@
         if (res.status != 200) {
             return "error: the teck man is broken :(";
         }
-        return await response.text();
+        return await res.text();
     }
 
     export async function get_img(err_counter = 0) {
@@ -52,7 +52,7 @@
         if (res.status != 200) {
             return null;
         }
-        return await response.text();
+        return await res.text();
     }
 
     export function set_img() {
