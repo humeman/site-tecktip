@@ -32,5 +32,5 @@
             {tecktip}
         </h1>
     </div>
-    <Footer slot="static" submitted={creator}/>
+    <Footer slot="static" submission={creator}/>
 </TeckPage>
