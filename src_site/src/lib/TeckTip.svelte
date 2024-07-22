@@ -18,7 +18,13 @@
     export async function get_tip(err_counter = 0) {
         let res;
         try {
-            res = await fetch(uri);
+            res = await fetch(uri, 
+                {
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                }
+            );
         } catch (e) {
             console.error(e)
             err_counter++;
@@ -32,7 +38,7 @@
         if (res.status != 200) {
             return "error: the teck man is broken :(";
         }
-        return await res.text();
+        return await res.json();
     }
 
     export async function get_img(err_counter = 0) {

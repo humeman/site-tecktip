@@ -6,11 +6,13 @@
 	import { onDestroy } from 'svelte';
 
     export let tecktip = "";
+    export let creator = null;
 
     export function set_tip() {
         tecktip = "";
         get_tip().then(tip => {
-            tecktip = tip;
+            tecktip = tip.tip;
+            creator = tip.by;
         })
     }
 
@@ -30,5 +32,5 @@
             {tecktip}
         </h1>
     </div>
-    <Footer slot="static"/>
+    <Footer slot="static" submitted={creator}/>
 </TeckPage>
