@@ -8,7 +8,7 @@
     async function new_tip() {
         if (!browser) return;
         await refresh_no_fade(true);
-        window.setTimeout(new_tip, 25)
+        window.setTimeout(new_tip, 25);
     }
 
     new_tip();
