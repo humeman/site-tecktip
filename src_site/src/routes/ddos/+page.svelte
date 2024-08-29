@@ -2,7 +2,16 @@
     import Footer from "$lib/Footer.svelte"
     import TeckPage from "$lib/TeckPage.svelte"
 	import { get } from 'svelte/store';
-    import { current_tip } from "$lib/tecktip.js";
+    import { current_tip, refresh, refresh_no_fade } from "$lib/tecktip.js";
+    import { browser } from "$app/environment";
+
+    async function new_tip() {
+        if (!browser) return;
+        await refresh_no_fade(true);
+        window.setTimeout(new_tip, 25)
+    }
+
+    new_tip();
 </script>
 
 <TeckPage>
@@ -11,5 +20,4 @@
             {$current_tip.tip}
         </h1>
     </div>
-    <Footer slot="static" submission={$current_tip.by}/>
 </TeckPage>
