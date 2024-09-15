@@ -90,6 +90,119 @@ export async function create_tip(api_key, tip) {
     return await res.json();
 }
 
+export async function list_submissions_and_run(api_key, callback) {
+    await callback({
+        "tip": "test submission 1",
+        "created": 1724885557,
+        "by": "teck man 1",
+        "id": "real-uuid-1",
+        "ip": "1.2.3.4"
+    });
+    await callback({
+        "tip": "test submission 2",
+        "created": 1624885557,
+        "by": "teck man 2",
+        "id": "real-uuid-2",
+        "ip": "2.3.4.5"
+    });
+
+    return;
+
+    res = await fetch(
+        `${uri}/tips`,
+        {
+            headers: {
+                "Authorization": api_key
+            }
+        }
+    );
+
+    return res.ok;
+}
+
+export async function get_submission(api_key, id) {
+    return {
+        "tip": "test submission 1",
+        "created": 1524885557,
+        "by": "teck man 1",
+        "id": "real-uuid-1",
+        "ip": "1.2.3.4"
+    }
+
+    res = await fetch(
+        `${uri}/submissions?id=${id}`,
+        {
+            headers: {
+                "Authorization": api_key
+            }
+        }
+    );
+
+    return await res.json();
+}
+
+export async function confirm_submission(api_key, id) {
+    return;
+
+    res = await fetch(
+        `${uri}/submissions/confirm`,
+        {
+            method: "POST",
+            body: JSON.stringify(
+                {
+                    "id": id
+                }
+            ),
+            headers: {
+                "Authorization": api_key
+            }
+        }
+    );
+
+    return await res.json();
+}
+
+export async function confirm_submission_with_edits(api_key, id, tip, by) {
+    return;
+
+    res = await fetch(
+        `${uri}/submissions/confirm`,
+        {
+            method: "POST",
+            body: JSON.stringify(
+                {
+                    "id": id,
+                    "edits": {
+                        "tip": tip,
+                        "by": by
+                    }
+                }
+            ),
+            headers: {
+                "Authorization": api_key
+            }
+        }
+    );
+
+    return await res.json();
+}
+
+export async function delete_submission(api_key, id) {
+    return;
+
+    res = await fetch(
+        `${uri}/submissions?id=${id}`,
+        {
+            method: "DELETE",
+            headers: {
+                "Authorization": api_key
+            }
+        }
+    );
+
+    return await res.json();
+}
+
 const months = [
     "Jan",
     "Feb",

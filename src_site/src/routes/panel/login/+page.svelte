@@ -22,7 +22,7 @@
 
     async function sign_in() {
         if (legacy.includes(api_key)) {
-            goto("panel/oldkey");
+            goto("/panel/oldkey");
             return;
         }
 

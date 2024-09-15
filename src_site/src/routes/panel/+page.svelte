@@ -86,7 +86,8 @@
             <input bind:value={filter} id="filter" placeholder="filter" class="min-w-[30%] pl-6 pr-6 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 pt-2 pb-2 md:pt-3 md:pb-3 lg:pt-3 lg:pb-3 lg:text-xl text-xl rounded-full border-2 border-white/50 bg-white/75 text-slate-950 backdrop-blur-lg drop-shadow-xl">
             {#each filtered_tips as tip}
             <!-- svelte-ignore a11y-click-events-have-key-events -->
-            <div on:click={goto(`/panel/edit?id=${tip.id}`)} class="w-full px-3 py-2 md:px-5 md:py-3 lg:px-6 lg:py-4 drop-shadow-xl dark:drop-shadow-xl rounded-3xl border-2 bg-slate-300/50 border-slate-300 hover:bg-slate-400/50 hover:border-slate-400 hover:cursor-pointer ease-in-out transition-all">
+            <!-- svelte-ignore a11y-no-static-element-interactions -->
+            <div on:click={() => {goto(`/panel/edit?id=${tip.id}`)}} class="w-full px-3 py-2 md:px-5 md:py-3 lg:px-6 lg:py-4 drop-shadow-xl dark:drop-shadow-xl rounded-3xl border-2 bg-slate-300/50 border-slate-300 hover:bg-slate-400/50 hover:border-slate-400 hover:cursor-pointer ease-in-out transition-all">
                 <p class="text-slate-800 lg:text-3xl md:text-2xl text-lg py-1 md:py-2 drop-shadow-xl font-bold">{tip.tip}</p>
                 <p class="text-slate-950 lg:text-xl md:text-lg text-md drop-shadow-xl">by <span class="font-bold text-cyan-800">{tip.by}</span> on <span class="font-bold text-cyan-800">{format_timestamp(tip.created)}</span></p>
                 <p class="text-slate-600 lg:text-md md:text-sm text-xs drop-shadow-xl">{tip.id}</p>
