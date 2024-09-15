@@ -10,7 +10,7 @@
     import { onMount, tick } from "svelte";
     import { redirect } from "@sveltejs/kit";
     import { check_key } from "$lib/auth";
-    import { get_tip, update_tip, format_timestamp } from "$lib/admin";
+    import { get_tip, update_tip, delete_tip, format_timestamp } from "$lib/admin";
 
     let key;
     let error;
@@ -19,6 +19,8 @@
 
     let new_tip;
     let new_by;
+
+    let delete_state = false;
 
     onMount(async () => {
         refresh(false);
@@ -67,6 +69,28 @@
         }
         goto("/panel");
     }
+
+    async function remove() {
+
+        if (delete_state) {
+            await delete_tip(
+                {
+                    "id": tip.id
+                }
+            )
+            goto("/panel");
+            return;
+        }
+
+        delete_state = true;
+        if (browser) {
+            window.setTimeout(
+                () => {
+                    delete_state = false;
+                }, 3000
+            );
+        }
+    }
 </script>
 
 <TeckPage>
@@ -83,7 +107,8 @@
             {#if tip != null}
             <button on:click={save} class="transition-all ease-in-out rounded-full bg-green-600/75 text-blue-100 pl-6 pr-6 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 pt-2 pb-2 md:pt-3 md:pb-3 lg:pt-3 lg:pb-3 lg:text-xl md:text-lg text-md font-bold hover:bg-green-600 drop-shadow-xl dark:drop-shadow-xl border-2 border-green-600">save</button>
             {/if}
-            <button on:click={() => {goto("/panel");}} class="transition-all ease-in-out rounded-full bg-red-600/75 text-red-100 pl-6 pr-6 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 pt-2 pb-2 md:pt-3 md:pb-3 lg:pt-3 lg:pb-3 lg:text-xl md:text-lg text-md font-bold hover:bg-red-600 drop-shadow-xl dark:drop-shadow-xl border-2 border-red-500">cancel</button>
+            <button on:click={() => {goto("/panel");}} class="transition-all ease-in-out rounded-full bg-slate-600/75 text-red-100 pl-6 pr-6 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 pt-2 pb-2 md:pt-3 md:pb-3 lg:pt-3 lg:pb-3 lg:text-xl md:text-lg text-md font-bold hover:bg-slate-600 drop-shadow-xl dark:drop-shadow-xl border-2 border-slate-500">cancel</button>
+            <button on:click={remove} class="transition-all ease-in-out rounded-full bg-red-600/75 text-red-100 pl-6 pr-6 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 pt-2 pb-2 md:pt-3 md:pb-3 lg:pt-3 lg:pb-3 lg:text-xl md:text-lg text-md font-bold hover:bg-red-600 drop-shadow-xl dark:drop-shadow-xl border-2 border-red-500">{delete_state ? "press again to delete" : "delete"}</button>
         </div>
 
         {#if error != null}
