@@ -1,1 +1,1 @@
-from .database import Database, User, Tip, Submission, Image, LegacyKey
+from .database import Database, User, Tip, Submission, Image, Key

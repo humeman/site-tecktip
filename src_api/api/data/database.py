@@ -30,18 +30,10 @@ class Submission(Base):
     tip = sqlalchemy.Column(sqlalchemy.String(256))
     ip = sqlalchemy.Column(sqlalchemy.String(128))
 
-class LegacyKey(Base):
-    __tablename__ = "legacy_keys"
+class Key(Base):
+    __tablename__ = "keys"
     val = sqlalchemy.Column(sqlalchemy.String(64), primary_key = True)
-
-class User(Base):
-    __tablename__ = "users"
-    val = sqlalchemy.Column(sqlalchemy.String(64), primary_key = True)
-    id = sqlalchemy.Column(sqlalchemy.String(64), primary_key = True)
-    name = sqlalchemy.Column(sqlalchemy.String(32))
-    email = sqlalchemy.Column(sqlalchemy.String(256))
-    password = sqlalchemy.Column(sqlalchemy.String(256))
-    admin = sqlalchemy.Column(sqlalchemy.Boolean)
+    alias = sqlalchemy.Column(sqlalchemy.String(64))
 
 T = TypeVar("T", bound = Base)
 
@@ -92,19 +84,11 @@ class Database:
             sqlalchemy.Column("tip", sqlalchemy.String(256)),
             sqlalchemy.Column("ip", sqlalchemy.String(128))
         )
-        self._table_legacy_keys = sqlalchemy.Table(
-            "legacy_keys",
+        self._table_keys = sqlalchemy.Table(
+            "keys",
             sqlalchemy.MetaData(),
-            sqlalchemy.Column("val", sqlalchemy.String(64), primary_key = True)
-        )
-        self._table_users = sqlalchemy.Table(
-            "users",
-            sqlalchemy.MetaData(),
-            sqlalchemy.Column("id", sqlalchemy.String(64), primary_key = True),
-            sqlalchemy.Column("name", sqlalchemy.String(32)),
-            sqlalchemy.Column("email", sqlalchemy.String(256)),
-            sqlalchemy.Column("password", sqlalchemy.String(256)),
-            sqlalchemy.Column("admin", sqlalchemy.Boolean)
+            sqlalchemy.Column("val", sqlalchemy.String(64), primary_key = True),
+            sqlalchemy.Column("alias", sqlalchemy.String(64))
         )
 
     async def random(self, objtype: Type[T]) -> T:
