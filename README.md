@@ -1,2 +1,2 @@
-# site-humeman
-Automatically deploys humeman.com using Ansible.
+# site-tecktip
+Automatically deploys tecktip.today using Ansible.

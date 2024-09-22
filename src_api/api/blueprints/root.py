@@ -4,9 +4,15 @@ from api.data import Tip, Image, Submission
 
 import time
 import uuid
+import os
 
 root_blueprint = Blueprint("root_page", __name__)
 rate_limits = {}
+    
+
+image_url = os.getenv("IMAGE_URL")
+if image_url is None:
+    raise RuntimeError("The IMAGE_URL env var must be set for the root blueprint to work.")
 
 @root_blueprint.route("/", methods = ["GET"])
 async def random_tip():
@@ -33,10 +39,13 @@ async def random_image():
         }, 404
 
     if request.content_type == "application/json":
-        return img.as_dict()
+        return {
+            **img.as_dict(),
+            "url": f"{image_url}/{img.file}"
+        }
     
     else:
-        return img.file
+        return f"{image_url}/{img.file}"
 
 @root_blueprint.route("/submit", methods = ["POST"])
 async def submit_tip():

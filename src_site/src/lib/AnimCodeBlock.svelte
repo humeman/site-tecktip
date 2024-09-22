@@ -77,12 +77,14 @@
 </script>
 
 <div class="flex flex-col bg-gradient-to-bl from-slate-300 to-slate-400 dark:from-slate-900 dark:to-black rounded-3xl w-[90%] md:w-[80%] lg:w-[70%] drop-shadow-3xl">
+    {#if title != undefined}
     <div class="flex flex-row items-center w-full bg-gradient-to-bl from-slate-900 to-black dark:from-slate-300 dark:to-slate-400 overflow-hidden rounded-t-3xl p-2 pl-4">
         <p class="text-gray-50 dark:text-gray-800 grow font-bold">{@html title}</p>
         <div class="rounded-full bg-green-500 w-4 h-4 ml-2"><span class="invisible text-black hover:visible">.</span></div>
         <div class="rounded-full bg-yellow-400 w-4 h-4 ml-2"><span class="invisible text-black hover:visible">-</span></div>
         <div class="rounded-full bg-red-500 w-4 h-4 ml-2 mr-2"><span class="invisible text-black hover:visible">x</span></div>
     </div>
+    {/if}
 
     <div class="m-6">
         {#each anim as line}

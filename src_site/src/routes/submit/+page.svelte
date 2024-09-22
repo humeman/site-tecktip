@@ -5,13 +5,14 @@
 
     import { goto } from "$app/navigation"
     import { browser } from "$app/environment"
+    import { get_tip, refresh } from "$lib/tecktip.js";
+    import { onMount } from "svelte";
 
     let tip;
     let by;
-
     let error = ""
 
-    function submit_tip() {
+    async function submit_tip() {
         if (tip == null || by == null) {
             error = "fill out both fields before continuing";
             return;
@@ -27,31 +28,30 @@
             return;
         }
 
-        fetch(
-            `https://${PUBLIC_SITE_HOST}:${PUBLIC_API_PORT}/submit`,
-            {
-                method: "POST",
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(
-                    {
-                        tip: tip,
-                        name: by
-                    }
-                )
-            })
-            .then( response => response.json())
-            .then( data => {
-                if (!data["success"]) {
-                    error = `error: ${data['reason']}`;
-                } else {
-                    window.location.replace(`/success?event=create&uuid=${data['uuid']}`)
-                }
-            })
-            .catch( err => {
-                error = "failed to send submission to API. try again later"
-            })
+        try {
+            let res = await fetch(
+                `${PUBLIC_SITE_HOST}:${PUBLIC_API_PORT}/submit`,
+                {
+                    method: "POST",
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(
+                        {
+                            tip: tip,
+                            name: by
+                        }
+                    )
+                });
+            let data = await res.json();
+            if (!data["success"]) {
+                error = `error: ${data['reason']}`;
+            } else {
+                window.location.replace(`/success?event=create&uuid=${data['uuid']}`)
+            }
+        } catch (e) {
+            error = "failed to send submission to API. try again later"
+        }
     }
 
     function goto_home() {
@@ -59,6 +59,10 @@
             goto("/")
         }
     }
+
+    onMount(async () => {
+        await refresh(false);
+    })
 </script>
 
 <TeckPage>
