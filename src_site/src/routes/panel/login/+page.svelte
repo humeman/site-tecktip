@@ -14,9 +14,9 @@
     let error = null;
 
     let legacy = [
-        "abc",
-        "def",
-        "ghi"
+        "c264e756-3b85-462f-a38c-986357f32626",
+        "7c9bfb2b-aa1a-4f10-80e9-a0fd533133c3",
+        "fb2ddcc0-8fdc-4587-94fe-0c27e918a1da"
     ]
 
 
