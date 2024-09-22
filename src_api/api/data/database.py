@@ -32,8 +32,16 @@ class Submission(Base):
 
 class Key(Base):
     __tablename__ = "keys"
-    val = sqlalchemy.Column(sqlalchemy.String(64), primary_key = True)
+    id = sqlalchemy.Column(sqlalchemy.String(40), primary_key = True)
+    val = sqlalchemy.Column(sqlalchemy.String(64))
     alias = sqlalchemy.Column(sqlalchemy.String(64))
+
+class AuditLog(Base):
+    __tablename__ = "auditlog"
+    id = sqlalchemy.Column(sqlalchemy.String(40), primary_key = True)
+    user_id = sqlalchemy.Column(sqlalchemy.String(40))
+    created = sqlalchemy.Column(sqlalchemy.BigInteger)
+    action = sqlalchemy.Column(sqlalchemy.Text)
 
 T = TypeVar("T", bound = Base)
 
@@ -87,8 +95,17 @@ class Database:
         self._table_keys = sqlalchemy.Table(
             "keys",
             sqlalchemy.MetaData(),
-            sqlalchemy.Column("val", sqlalchemy.String(64), primary_key = True),
+            sqlalchemy.Column("id", sqlalchemy.String(40), primary_key = True),
+            sqlalchemy.Column("val", sqlalchemy.String(64)),
             sqlalchemy.Column("alias", sqlalchemy.String(64))
+        )
+        self._table_auditlog = sqlalchemy.Table(
+            "auditlog",
+            sqlalchemy.MetaData(),
+            sqlalchemy.Column("id", sqlalchemy.String(40), primary_key = True),
+            sqlalchemy.Column("user_id", sqlalchemy.String(40)),
+            sqlalchemy.Column("created", sqlalchemy.BigInteger),
+            sqlalchemy.Column("action", sqlalchemy.Text)
         )
 
     async def random(self, objtype: Type[T]) -> T:
@@ -98,7 +115,7 @@ class Database:
             )
             return result.scalars().first()
         
-    async def get(self, objtype: Type[T], where: ColumnExpressionArgument) -> int:
+    async def get(self, objtype: Type[T], where: ColumnExpressionArgument) -> T:
         async with self._session_maker() as session:
             result = await session.execute(
                 sqlalchemy.select(objtype).where(where)
@@ -114,17 +131,17 @@ class Database:
         
     async def list_paginated(self, objtype: Type[T], col: sqlalchemy.Column, page: int = 0) -> List[T]:
         async with self._session_maker() as session:
-            result: Result[Any] = await session.execute(
+            result: Result[T] = await session.execute(
                 sqlalchemy.select(objtype).order_by(col).offset(page * 50).limit(50)
             )
-            return result.all()
+            return result.scalars().all()
         
     async def list_all(self, objtype: Type[T]) -> List[T]:
         async with self._session_maker() as session:
-            result: Result[Any] = await session.execute(
+            result: Result[T] = await session.execute(
                 sqlalchemy.select(objtype)
             )
-            return result.all()
+            return result.scalars().all()
         
     async def upsert(self, obj: T) -> None:
         async with self._session_maker() as session:
@@ -135,6 +152,14 @@ class Database:
         async with self._session_maker() as session:
             await session.delete(obj)
             await session.commit()
+            
+    async def arbitrary(self, query: Any) -> Any:
+        async with self._session_maker() as session:
+            result: Result[Any] = await session.execute(
+                query
+            )
+            return result
+        
 
     async def __aenter__(self) -> None:
         self._engine = create_async_engine(

@@ -1,66 +1,70 @@
 import { PUBLIC_SITE_HOST, PUBLIC_API_PORT } from '$env/static/public'
 
-let uri = `https://${PUBLIC_SITE_HOST}:${PUBLIC_API_PORT}`;
+let uri = `${PUBLIC_SITE_HOST}:${PUBLIC_API_PORT}`;
+
+async function get_data(res) {
+    let data;
+    try {
+        data = await res.json()
+    } catch (e) {
+        console.error("Errored request:")
+        console.error(e);
+        console.error(res);
+        if (res.status != 200) {
+            throw Error(`api error (unexpected content): ${res.status}`)
+        }
+        else {
+            throw Error(`api error (unexpected content)`)
+        }
+        throw e;
+    }
+    if (!data.success) {
+        throw Error(`api error: ${res.status} / ${data.reason}`)
+    }
+
+    return data.data;
+}
 
 export async function list_tips_and_run(api_key, callback) {
-    await callback({
-        "tip": "test tip 1",
-        "created": 1724885557,
-        "by": "teck man 1",
-        "id": "real-uuid-1"
-    });
-    await callback({
-        "tip": "test tip 2",
-        "created": 1624885557,
-        "by": "teck man 2",
-        "id": "real-uuid-2"
-    });
-    await callback({
-        "tip": "test tip 3",
-        "created": 1524885557,
-        "by": "teck man 3",
-        "id": "real-uuid-3"
-    });
+    let count = 1
+    let page = 0;
 
-    return;
-
-    res = await fetch(
-        `${uri}/auth`,
-        {
-            headers: {
-                "Authorization": api_key
+    while (count != 0) {
+        let res = await fetch(
+            `${uri}/admin/tips?page=${page}`,
+            {
+                headers: {
+                    "Authorization": api_key
+                }
             }
+        );
+        let data = await get_data(res);
+        for (let tip of data.tips) {
+            await callback(tip)
         }
-    );
 
-    return res.ok;
+        count = data.tips.length;
+        page++;
+    }
 }
 
 export async function get_tip(api_key, id) {
-    return {
-        "tip": "test tip 3",
-        "created": 1524885557,
-        "by": "teck man 3",
-        "id": "real-uuid-3"
-    }
-
-    res = await fetch(
-        `${uri}/tips?id=${id}`,
+    let res = await fetch(
+        `${uri}/admin/tips/${id}`,
         {
             headers: {
                 "Authorization": api_key
             }
         }
     );
+    let data = await get_data(res);
 
-    return await res.json();
+    return await data.tip;
 }
 
 export async function delete_tip(api_key, id) {
-    return;
-
-    res = await fetch(
-        `${uri}/tips?id=${id}`,
+    let res = await fetch(
+        `${uri}/admin/tips/${id}`,
         {
             method: "DELETE",
             headers: {
@@ -68,146 +72,102 @@ export async function delete_tip(api_key, id) {
             }
         }
     );
+    let data = await get_data(res);
 
-    return await res.json();
+    return await data.tip;
 }
 
-export async function update_tip(api_key, tip) {
-    return;
-
-    res = await fetch(
-        `${uri}/tips`,
+export async function update_tip(api_key, id, changes) {
+    let res = await fetch(
+        `${uri}/admin/tips/${id}`,
         {
             method: "PUT",
-            body: JSON.stringify(tip),
+            body: JSON.stringify(changes),
             headers: {
-                "Authorization": api_key
+                "Authorization": api_key,
+                "Content-Type": "application/json"
             }
         }
     );
+    let data = await get_data(res);
 
-    return await res.json();
+    return await data.tip;
 }
 
 export async function create_tip(api_key, tip) {
-    return;
-
-    res = await fetch(
-        `${uri}/tips`,
+    let res = await fetch(
+        `${uri}/admin/tips`,
         {
             method: "POST",
             body: JSON.stringify(tip),
             headers: {
-                "Authorization": api_key
+                "Authorization": api_key,
+                "Content-Type": "application/json"
             }
         }
     );
+    let data = await get_data(res);
 
-    return await res.json();
+    return await data.tip;
 }
 
 export async function list_submissions_and_run(api_key, callback) {
-    await callback({
-        "tip": "test submission 1",
-        "created": 1724885557,
-        "by": "teck man 1",
-        "id": "real-uuid-1",
-        "ip": "1.2.3.4"
-    });
-    await callback({
-        "tip": "test submission 2",
-        "created": 1624885557,
-        "by": "teck man 2",
-        "id": "real-uuid-2",
-        "ip": "2.3.4.5"
-    });
+    let count = 1
+    let page = 0;
 
-    return;
-
-    res = await fetch(
-        `${uri}/tips`,
-        {
-            headers: {
-                "Authorization": api_key
+    while (count != 0) {
+        let res = await fetch(
+            `${uri}/admin/submissions?page=${page}`,
+            {
+                headers: {
+                    "Authorization": api_key
+                }
             }
+        );
+        let data = await get_data(res);
+        for (let submission of data.submissions) {
+            await callback(submission)
         }
-    );
 
-    return res.ok;
+        count = data.submissions.length;
+        page++;
+    }
 }
 
 export async function get_submission(api_key, id) {
-    return {
-        "tip": "test submission 1",
-        "created": 1524885557,
-        "by": "teck man 1",
-        "id": "real-uuid-1",
-        "ip": "1.2.3.4"
-    }
-
-    res = await fetch(
-        `${uri}/submissions?id=${id}`,
+    let res = await fetch(
+        `${uri}/admin/submissions/${id}`,
         {
             headers: {
                 "Authorization": api_key
             }
         }
     );
+    let data = await get_data(res);
 
-    return await res.json();
+    return await data.submission;
 }
 
-export async function confirm_submission(api_key, id) {
-    return;
-
-    res = await fetch(
-        `${uri}/submissions/confirm`,
+export async function confirm_submission(api_key, id, changes) {
+    let res = await fetch(
+        `${uri}/admin/submissions/${id}`,
         {
-            method: "POST",
-            body: JSON.stringify(
-                {
-                    "id": id
-                }
-            ),
+            method: "PUT",
+            body: JSON.stringify(changes),
             headers: {
-                "Authorization": api_key
+                "Authorization": api_key,
+                "Content-Type": "application/json"
             }
         }
     );
+    let data = await get_data(res);
 
-    return await res.json();
-}
-
-export async function confirm_submission_with_edits(api_key, id, tip, by) {
-    return;
-
-    res = await fetch(
-        `${uri}/submissions/confirm`,
-        {
-            method: "POST",
-            body: JSON.stringify(
-                {
-                    "id": id,
-                    "edits": {
-                        "tip": tip,
-                        "by": by
-                    }
-                }
-            ),
-            headers: {
-                "Authorization": api_key
-            }
-        }
-    );
-
-    return await res.json();
+    return await data.tip;
 }
 
 export async function delete_submission(api_key, id) {
-    return;
-
-    res = await fetch(
-        `${uri}/submissions?id=${id}`,
+    let res = await fetch(
+        `${uri}/admin/submissions/${id}`,
         {
             method: "DELETE",
             headers: {
@@ -215,39 +175,37 @@ export async function delete_submission(api_key, id) {
             }
         }
     );
+    let data = await get_data(res);
 
-    return await res.json();
+    return await data.submission;
 }
 
 export async function list_images_and_run(api_key, callback) {
-    await callback({
-        "id": "0c796b9e-a994-4247-bb2c-2c1003bfd8bc",
-        "url": "https://tecktip.today/images/0c796b9e-a994-4247-bb2c-2c1003bfd8bc.jpg"
-    });
-    await callback({
-        "id": "f4f4c4d0-7589-418b-b239-75e1a3c4e132",
-        "url": "https://tecktip.today/images/f4f4c4d0-7589-418b-b239-75e1a3c4e132.jpg"
-    });
+    let count = 1
+    let page = 0;
 
-    return;
-
-    res = await fetch(
-        `${uri}/tips`,
-        {
-            headers: {
-                "Authorization": api_key
+    while (count != 0) {
+        let res = await fetch(
+            `${uri}/admin/images?page=${page}`,
+            {
+                headers: {
+                    "Authorization": api_key
+                }
             }
+        );
+        let data = await get_data(res);
+        for (let image of data.images) {
+            await callback(image)
         }
-    );
 
-    return res.ok;
+        count = data.images.length;
+        page++;
+    }
 }
 
 export async function delete_image(api_key, id) {
-    return;
-
-    res = await fetch(
-        `${uri}/images?id=${id}`,
+    let res = await fetch(
+        `${uri}/admin/images/${id}`,
         {
             method: "DELETE",
             headers: {
@@ -255,61 +213,51 @@ export async function delete_image(api_key, id) {
             }
         }
     );
+    let data = await get_data(res);
 
-    return await res.json();
+    return await data.image;
 }
 
 export async function upload_image(api_key, file) {
-    return {
-        "id": "f4f4c4d0-7589-418b-b239-75e1a3c4e132",
-        "url": "https://tecktip.today/images/f4f4c4d0-7589-418b-b239-75e1a3c4e132.jpg"
-    };
+    let fdata = new FormData();
+    fdata.append("file", file);
 
-    let data = new FormData();
-    data.append("file", file);
-
-    res = await fetch(
-        `${uri}/images`,
+    let res = await fetch(
+        `${uri}/admin/images`,
         {
             method: "POST",
-            body: data,
+            body: fdata,
             headers: {
                 "Authorization": api_key
             }
         }
     );
+    let data = await get_data(res);
 
-    return await res.json();
+    return await data.image;
 }
 
 export async function list_audit_log_and_run(api_key, callback) {
-    await callback({
-        "id": "abc",
-        "user_id": "def",
-        "user_alias": "the teck man",
-        "created": 1724885557,
-        "action": "tip deleted\nby: abc\ncontent: this is a teck tip\non: Jul 18, 2024"
-    });
-    await callback({
-        "id": "abc1",
-        "user_id": "def1",
-        "user_alias": "the teck man",
-        "created": 1524885557,
-        "action": "tip deleted\nby: abcd\ncontent: this is another teck tip\non: Jul 18, 2014"
-    });
+    let count = 1
+    let page = 0;
 
-    return;
-
-    res = await fetch(
-        `${uri}/audit`,
-        {
-            headers: {
-                "Authorization": api_key
+    while (count != 0) {
+        let res = await fetch(
+            `${uri}/admin/audit?page=${page}`,
+            {
+                headers: {
+                    "Authorization": api_key
+                }
             }
+        );
+        let data = await get_data(res);
+        for (let audit of data.audits) {
+            await callback(audit)
         }
-    );
 
-    return res.ok;
+        count = data.audits.length;
+        page++;
+    }
 }
 
 const months = [

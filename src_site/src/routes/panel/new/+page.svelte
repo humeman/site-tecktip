@@ -21,7 +21,7 @@
         key = localStorage.getItem("api_key");
 
         if (key == null) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
         let valid;
@@ -32,7 +32,7 @@
             valid = false;
         }
         if (!valid) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
     });
@@ -40,6 +40,7 @@
     async function save() {
         try {
             await create_tip(
+                key,
                 {
                     "tip": new_tip,
                     "by": new_by

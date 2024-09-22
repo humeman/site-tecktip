@@ -42,7 +42,16 @@
 - name: Create CDN directory
   ansible.builtin.file:
     path: /var/www/{{ site_name }}/cdn
-    mode: "0555"
+    mode: "0755"
+    owner: "{{ site_name }}"
+    group: "{{ site_name }}"
+    state: directory
+  become: true
+
+- name: Create CDN/images directory
+  ansible.builtin.file:
+    path: /var/www/{{ site_name }}/cdn/images
+    mode: "0755"
     owner: "{{ site_name }}"
     group: "{{ site_name }}"
     state: directory

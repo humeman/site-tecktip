@@ -30,7 +30,7 @@
 
         try {
             let res = await fetch(
-                `https://${PUBLIC_SITE_HOST}:${PUBLIC_API_PORT}/submit`,
+                `${PUBLIC_SITE_HOST}:${PUBLIC_API_PORT}/submit`,
                 {
                     method: "POST",
                     headers: {

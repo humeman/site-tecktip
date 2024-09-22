@@ -9,7 +9,7 @@
     import { onMount, tick } from "svelte";
     import { redirect } from "@sveltejs/kit";
     import { check_key } from "$lib/auth";
-    import { list_images_and_run, delete_image, confirm_submission_with_edits, delete_submission, format_timestamp } from "$lib/admin";
+    import { list_images_and_run, delete_image, format_timestamp } from "$lib/admin";
     import Fa from 'svelte-fa'
     import { faPencil, faCheck, faTrash } from '@fortawesome/free-solid-svg-icons'
 
@@ -18,6 +18,7 @@
     let pending_deletion = [];
 
     async function load_images() {
+        images = []
         await list_images_and_run(key, async (image) => {
             images = [...images, image];
         })
@@ -28,7 +29,7 @@
         key = localStorage.getItem("api_key");
 
         if (key == null) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
 
@@ -41,7 +42,7 @@
                 valid = false;
             }
             if (!valid) {
-                goto("panel/login");
+                goto("/panel/login");
                 return;
             }
         }

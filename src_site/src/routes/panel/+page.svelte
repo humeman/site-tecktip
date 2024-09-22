@@ -16,6 +16,7 @@
     let filter;
 
     async function load_tips() {
+        tips = [];
         await list_tips_and_run(key, async (tip) => {
             console.log(tip);
             tips = [...tips, tip];
@@ -27,7 +28,7 @@
         key = localStorage.getItem("api_key");
 
         if (key == null) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
 
@@ -40,7 +41,7 @@
                 valid = false;
             }
             if (!valid) {
-                goto("panel/login");
+                goto("/panel/login");
                 return;
             }
         }

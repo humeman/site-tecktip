@@ -21,7 +21,7 @@
         key = localStorage.getItem("api_key");
 
         if (key == null) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
         let valid;
@@ -32,17 +32,14 @@
             valid = false;
         }
         if (!valid) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
     });
 
     async function upload(file) {
-        let form_data = new FormData();
-        form_data.append("file", files[0]);
-
         try {
-            await upload_image(form_data);
+            await upload_image(key, files[0]);
         } catch (e) {
             console.error(e);
             error = e;

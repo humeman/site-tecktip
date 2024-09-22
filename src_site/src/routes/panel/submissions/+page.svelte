@@ -9,7 +9,7 @@
     import { onMount, tick } from "svelte";
     import { redirect } from "@sveltejs/kit";
     import { check_key } from "$lib/auth";
-    import { list_submissions_and_run, confirm_submission, confirm_submission_with_edits, delete_submission, format_timestamp } from "$lib/admin";
+    import { list_submissions_and_run, confirm_submission, delete_submission, format_timestamp } from "$lib/admin";
     import Fa from 'svelte-fa'
     import { faPencil, faCheck, faTrash } from '@fortawesome/free-solid-svg-icons'
 
@@ -18,6 +18,7 @@
     let filter;
 
     async function load_tips() {
+        tips = [];
         await list_submissions_and_run(key, async (tip) => {
             tips = [...tips, tip];
         })
@@ -28,7 +29,7 @@
         key = localStorage.getItem("api_key");
 
         if (key == null) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
 
@@ -41,7 +42,7 @@
                 valid = false;
             }
             if (!valid) {
-                goto("panel/login");
+                goto("/panel/login");
                 return;
             }
         }
@@ -73,18 +74,16 @@
     $: filter, tips, filtered_tips = filter_tips();
 
     async function confirm_tip(id) {
-        await confirm_submission(key, id);
+        await confirm_submission(key, id, {});
         await load_tips();
     }
 
     async function delete_tip(id) {
         await delete_submission(key, id);
         await load_tips();
-
     }
 
     async function edit_tip(id) {
-        console.log(id)
         goto(`/panel/submissions/confirm?id=${id}`);
     }
 </script>

@@ -10,7 +10,7 @@
     import { onMount, tick } from "svelte";
     import { redirect } from "@sveltejs/kit";
     import { check_key } from "$lib/auth";
-    import { get_submission, confirm_submission_with_edits, format_timestamp } from "$lib/admin";
+    import { get_submission, confirm_submission, format_timestamp } from "$lib/admin";
 
     let key;
     let error;
@@ -25,7 +25,7 @@
         key = localStorage.getItem("api_key");
 
         if (key == null) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
         let valid;
@@ -36,7 +36,7 @@
             valid = false;
         }
         if (!valid) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
 
@@ -53,7 +53,8 @@
 
     async function save() {
         try {
-            await confirm_submission_with_edits(
+            await confirm_submission(
+                key,
                 tip.id,
                 {
                     "tip": new_tip,

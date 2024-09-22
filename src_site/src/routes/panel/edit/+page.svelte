@@ -27,7 +27,7 @@
         key = localStorage.getItem("api_key");
 
         if (key == null) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
         let valid;
@@ -38,7 +38,7 @@
             valid = false;
         }
         if (!valid) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
 
@@ -48,17 +48,22 @@
             return;
         }
 
-        tip = await get_tip(key, id);
+        try {
+            tip = await get_tip(key, id);
+        } catch (e) {
+            error = e.message;
+            return;
+        }
         new_tip = tip.tip;
-        new_by = tip.by
+        new_by = tip.by;
     });
 
     async function save() {
         try {
             await update_tip(
+                key,
+                tip.id,
                 {
-                    "id": tip.id,
-                    "created": tip.created,
                     "tip": new_tip,
                     "by": new_by
                 }
@@ -73,11 +78,16 @@
     async function remove() {
 
         if (delete_state) {
-            await delete_tip(
-                {
-                    "id": tip.id
-                }
-            )
+            try {
+                await delete_tip(
+                    key,
+                    tip.id
+                )
+            }
+            catch (e) {
+                error = `error deleting: ${e}`;
+                return;
+            }
             goto("/panel");
             return;
         }

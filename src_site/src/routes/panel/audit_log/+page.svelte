@@ -28,7 +28,7 @@
         key = localStorage.getItem("api_key");
 
         if (key == null) {
-            goto("panel/login");
+            goto("/panel/login");
             return;
         }
 
@@ -41,7 +41,7 @@
                 valid = false;
             }
             if (!valid) {
-                goto("panel/login");
+                goto("/panel/login");
                 return;
             }
         }
@@ -88,9 +88,9 @@
             <div class="w-full px-3 py-2 md:px-5 md:py-3 lg:px-6 lg:py-4 drop-shadow-xl dark:drop-shadow-xl rounded-3xl border-2 bg-slate-300/50 border-slate-300 ease-in-out transition-all">
                 <div class="flex flex-row items-center">
                     <div class="grow m-0 p-0">
-                        <p class="text-slate-800 lg:text-3xl md:text-2xl text-lg py-1 md:py-2 drop-shadow-xl font-bold whitespace-pre-line">{log.action}</p>
-                        <p class="text-slate-950 lg:text-xl md:text-lg text-md drop-shadow-xl"><span class="font-bold text-cyan-800">{log.user_alias}</span> on <span class="font-bold text-cyan-800">{format_timestamp(log.created)}</span></p>
-                        <p class="text-slate-600 lg:text-md md:text-sm text-xs drop-shadow-xl">log {log.id}, user {log.user_id}</p>
+                        <p class="text-slate-800 lg:text-2xl md:text-xl text-md py-1 md:py-2 drop-shadow-xl font-bold whitespace-pre-line">{log.action}</p>
+                        <p class="text-slate-950 lg:text-lg md:text-md text-sm drop-shadow-xl"><span class="font-bold text-cyan-800">{log.user_alias}</span> on <span class="font-bold text-cyan-800">{format_timestamp(log.created)}</span></p>
+                        <p class="text-slate-600 lg:text-md md:text-sm text-xs drop-shadow-xl">{log.id}</p>
                     </div>
                 </div>
             </div>

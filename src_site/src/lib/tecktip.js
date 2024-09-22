@@ -8,7 +8,7 @@ import { PUBLIC_SITE_HOST, PUBLIC_API_PORT } from '$env/static/public'
 
 export const current_tip = writable({tip: "", by: null});
 
-let uri = `https://${PUBLIC_SITE_HOST}:${PUBLIC_API_PORT}`;
+let uri = `${PUBLIC_SITE_HOST}:${PUBLIC_API_PORT}`;
 
 export async function refresh(with_tip) {
     await fade_with(
@@ -19,7 +19,7 @@ export async function refresh(with_tip) {
             }
 
             let img = await get_img();
-            fade_style.set(`background-image: url("/images/${img}");`);
+            fade_style.set(`background-image: url("${img}");`);
         }
     )
 }
@@ -31,7 +31,7 @@ export async function refresh_no_fade(with_tip) {
     }
 
     let img = await get_img();
-    fade_style.set(`background-image: url("/images/${img}");`);
+    fade_style.set(`background-image: url("${img}");`);
 }
 
 export async function get_tip(err_counter = 0) {

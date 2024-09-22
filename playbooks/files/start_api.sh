@@ -21,4 +21,6 @@ export MYSQL_DB={{ sql["db"] }}
 export HYPERCORN_CERTFILE="/etc/letsencrypt/live/{{ site_host }}/fullchain.pem"
 export HYPERCORN_KEYFILE="/etc/letsencrypt/live/{{ site_host }}/privkey.pem"
 export PORT="{{ api_port }}"
+export IMAGE_URL="https://{{ cdn_host }}/images"
+export IMAGE_FOLDER="/var/www/{{ site_name }}/cdn/images"
 python3 main.py

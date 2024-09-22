@@ -8,3 +8,4 @@ aiohttp
 sqlalchemy
 sqlalchemy[asyncio]
 aiomysql
+python-magic
