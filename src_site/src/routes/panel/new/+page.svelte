@@ -62,7 +62,7 @@
             <input bind:value={new_by} id="by" placeholder="by" class="pl-6 pr-6 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 pt-2 pb-2 md:pt-3 md:pb-3 lg:pt-3 lg:pb-3 lg:text-xl text-xl rounded-full border-2 border-white/50 bg-white/75 text-slate-950 backdrop-blur-lg drop-shadow-xl">
         </div>
 
-        <div class="flex 2xl:flex-row flex-col gap-3 md:gap-4 lg:gap-6 w-full items-center justify-center">
+        <div class="flex flex-row flex-wrap gap-3 md:gap-4 lg:gap-6 w-full items-center justify-center">
             <button on:click={save} class="transition-all ease-in-out rounded-full bg-green-600/75 text-blue-100 pl-6 pr-6 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 pt-2 pb-2 md:pt-3 md:pb-3 lg:pt-3 lg:pb-3 lg:text-xl md:text-lg text-md font-bold hover:bg-green-600 drop-shadow-xl dark:drop-shadow-xl border-2 border-green-600">create</button>
             <button on:click={() => {goto("/panel");}} class="transition-all ease-in-out rounded-full bg-red-600/75 text-red-100 pl-6 pr-6 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 pt-2 pb-2 md:pt-3 md:pb-3 lg:pt-3 lg:pb-3 lg:text-xl md:text-lg text-md font-bold hover:bg-red-600 drop-shadow-xl dark:drop-shadow-xl border-2 border-red-500">cancel</button>
         </div>

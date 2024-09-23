@@ -23,4 +23,6 @@ export HYPERCORN_KEYFILE="/etc/letsencrypt/live/{{ site_host }}/privkey.pem"
 export PORT="{{ api_port }}"
 export IMAGE_URL="https://{{ cdn_host }}/images"
 export IMAGE_FOLDER="/var/www/{{ site_name }}/cdn/images"
+export OPENAI_API_KEY="{{ openai.key }}"
+export OPENAI_MODEL="{{ openai.model }}"
 python3 main.py

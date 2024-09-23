@@ -69,8 +69,8 @@ async def audit(key: api.data.Key, action: str):
 async def start():
     global config
     config = hypercorn.config.Config.from_toml("config.toml")
-    config.certfile = os.getenv("HYPERCORN_CERTFILE")
-    config.keyfile = os.getenv("HYPERCORN_KEYFILE")
+    #config.certfile = os.getenv("HYPERCORN_CERTFILE")
+    #config.keyfile = os.getenv("HYPERCORN_KEYFILE")
     config.bind = f"0.0.0.0:{os.getenv('PORT')}"
     global app
     app = Quart(__name__)
@@ -84,6 +84,7 @@ async def start():
     app.register_blueprint(api.blueprints.submissions_blueprint)
     app.register_blueprint(api.blueprints.images_blueprint)
     app.register_blueprint(api.blueprints.audit_blueprint)
+    app.register_blueprint(api.blueprints.teckgpt_blueprint)
     
     async with db:
         await hypercorn.asyncio.serve(app, config)
