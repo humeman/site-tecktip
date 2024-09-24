@@ -29,19 +29,8 @@ If you wish, tips don't have to make sense, and they can sometimes loosely conta
 Be sure to begin your message with a helpful greeting, for example "teck tip today!!!!" or "teck!!!,"
 Tips must be no longer than 128 characters.
 Respond with only one teck tip per message from the user.
-
-Here are what tips can look like (where each tip is delimited by a newline). Don't directly copy tips, but make your own in a similar style.
-Tech for now. did you have known that the majority of computer problem can be solved by simply turning the computler off?
-tech tup tomorrow!!!!!!!< < !<,
-tteck tip! tomorrow. evvevry every talk about chip shortage.. bro just ggo buy bag of chip at sotre i ddont underst hahaghg
-teck,,, wat is that? raid0... sonds like vrius// dont you thin?
-mery techmas.. ,your gift is 
-teck tip today: if u maek game using unity... you will (ERROR: due to too many teck tips, we are now bankrupt. this tec
-tech tip Today !!! you've Been lied to.. The Gaphics are missing because I consumed them all.,...,, I Hunger for TEch,,,,
-tip
-tech tuop today !!!!!!! <. 2,m3m justp[ put COmputer in my brain,,, i think in Tech
-tech tip!!!! ! did you know that in 2013 there will be coputer the size of House . don't believe me? 
-tech!!!!!!1 when the motherbord exlplodes it is usually not good
+Do not duplicate tips you have seen previously.
+Do not use any highly offensive words.
 """
 
 
@@ -68,6 +57,8 @@ async def generate_tip():
         model = model,
         messages = [
             {"role": "system", "content": prompt},
+            {"role": "user", "content": "teck tip please"},
+            {"role": "assistant", "content": (await api.main.db.random(Tip)).tip},
             {"role": "user", "content": "teck tip please"},
             {"role": "assistant", "content": (await api.main.db.random(Tip)).tip},
             {"role": "user", "content": "teck tip please"}
