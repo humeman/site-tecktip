@@ -260,9 +260,9 @@ export async function list_audit_log_and_run(api_key, callback) {
     }
 }
 
-export async function get_teckgpt(api_key) {
+export async function get_teckgpt(api_key, prompt) {
     let res = await fetch(
-        `${uri}/admin/teckgpt`,
+        `${uri}/admin/teckgpt${prompt ? `?prompt=${encodeURI(prompt)}` : ""}`,
         {
             headers: {
                 "Authorization": api_key
