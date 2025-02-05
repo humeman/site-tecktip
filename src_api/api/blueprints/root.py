@@ -10,7 +10,7 @@ import base64
 root_blueprint = Blueprint("root_page", __name__)
 rate_limits = {}
 
-banned_words = [base64.b64decode(x).decode() for x in ["ZnVjawo=", "c2hpdAo=", "Yml0Y2gK", "cmVwZW50Cg==", "YXNzCg=="]]
+banned_words = [base64.b64decode(x).decode().strip() for x in ["ZnVjawo=", "c2hpdAo=", "Yml0Y2gK", "cmVwZW50Cg==", "YXNzCg=="]]
     
 
 image_url = os.getenv("IMAGE_URL")
