@@ -84,6 +84,7 @@ async def start():
     app.register_blueprint(api.blueprints.submissions_blueprint)
     app.register_blueprint(api.blueprints.images_blueprint)
     app.register_blueprint(api.blueprints.audit_blueprint)
+    app.register_blueprint(api.blueprints.teckgpt_blueprint)
     
     async with db:
         await hypercorn.asyncio.serve(app, config)

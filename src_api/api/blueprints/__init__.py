@@ -4,3 +4,4 @@ from .panel.tips import tips_blueprint
 from .panel.submissions import submissions_blueprint
 from .panel.images import images_blueprint
 from .panel.audit import audit_blueprint
+from .panel.teckgpt import teckgpt_blueprint

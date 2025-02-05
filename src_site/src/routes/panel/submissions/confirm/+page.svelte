@@ -79,7 +79,7 @@
         </div>
         {/if}
 
-        <div class="flex 2xl:flex-row flex-col gap-3 md:gap-4 lg:gap-6 w-full items-center justify-center">
+        <div class="flex flex-row flex-wrap gap-3 md:gap-4 lg:gap-6 w-full items-center justify-center">
             {#if tip != null}
             <button on:click={save} class="transition-all ease-in-out rounded-full bg-green-600/75 text-blue-100 pl-6 pr-6 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 pt-2 pb-2 md:pt-3 md:pb-3 lg:pt-3 lg:pb-3 lg:text-xl md:text-lg text-md font-bold hover:bg-green-600 drop-shadow-xl dark:drop-shadow-xl border-2 border-green-600">save</button>
             {/if}
