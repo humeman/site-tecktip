@@ -46,6 +46,7 @@ async def random_nice_tip():
         for banned_word in banned_words:
             if banned_word.lower() in tip.tip.lower():
                 tip = None
+                break
 
     if request.content_type == "application/json":
         return tip.as_dict()
