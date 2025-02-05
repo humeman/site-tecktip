@@ -5,9 +5,12 @@ from api.data import Tip, Image, Submission
 import time
 import uuid
 import os
+import base64
 
 root_blueprint = Blueprint("root_page", __name__)
 rate_limits = {}
+
+banned_words = [base64.b64decode(x) for x in ["ZnVjawo=", "c2hpdAo=", "Yml0Y2gK", "cmVwZW50Cg==", "YXNzCg=="]]
     
 
 image_url = os.getenv("IMAGE_URL")
@@ -22,6 +25,27 @@ async def random_tip():
             "success": False,
             "reason": "no tips :("
         }, 404
+
+    if request.content_type == "application/json":
+        return tip.as_dict()
+    
+    else:
+        return tip.tip
+
+@root_blueprint.route("/nice", methods = ["GET"])
+async def random_nice_tip():
+    tip = None
+    while tip is None:
+        tip = await api.main.db.random(Tip)
+        if tip is None:
+            return {
+                "success": False,
+                "reason": "no tips :("
+            }, 404
+        
+        for banned_word in banned_words:
+            if banned_word.lower() in tip.tip.lower():
+                tip = None
 
     if request.content_type == "application/json":
         return tip.as_dict()
