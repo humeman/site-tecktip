@@ -50,7 +50,7 @@
 <div id="footer" class="flex mt-auto flex-col md:flex-row justify-center items-center rounded-t-3xl bg-gradient-to-r from-gray-800/75 to-gray-900/75 backdrop-blur-lg w-[95%] p-3 md:p-5 lg:p-10 gap-3 md:gap-5 lg:gap-10">
     <div class="flex flex-col gap-2 grow md:items-start items-center">
         <h1 class="text-transparent grow bg-clip-text bg-gradient-to-r from-slate-100 to-blue-300 drop-shadow-xl lg:text-xl md:text-md text-sm">
-            site by <a href="https://humeman.com" class="underline hover:text-blue-400 transition-all ease-in-out font-semibold">humeman</a>
+            <a href="https://github.com/humeman/site-tecktip" class="underline hover:text-blue-400 transition-all ease-in-out font-semibold">github</a>
         </h1>
         {#if submission != null}
         <h1 class="text-transparent grow bg-clip-text bg-gradient-to-r from-slate-100 to-blue-300 drop-shadow-xl md:align-left lg:text-xl md:text-md text-sm">
