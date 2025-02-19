@@ -47,11 +47,15 @@ async def random_nice_tip():
             if banned_word.lower() in tip.tip.lower():
                 tip = None
                 break
-            
+                
+        if tip is None:
+            continue
+        
         valid = False
         for word in required_words:
             if word.lower() in tip.tip.lower():
                 valid = True
+                break
                 
         if not valid:
             tip = None
