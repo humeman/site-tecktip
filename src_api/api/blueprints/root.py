@@ -11,7 +11,7 @@ root_blueprint = Blueprint("root_page", __name__)
 rate_limits = {}
 
 banned_words = [base64.b64decode(x).decode().strip() for x in ["ZnVjawo=", "c2hpdAo=", "Yml0Y2gK", "cmVwZW50Cg==", "YXNzCg==", "c2V4Cg==", "aGFtbWFtCg==", "d29vZHMK", "c291bAo="]]
-    
+required_words = ["tehc", "teck", "tech", "tec"]
 
 image_url = os.getenv("IMAGE_URL")
 if image_url is None:
@@ -48,7 +48,12 @@ async def random_nice_tip():
                 tip = None
                 break
             
-        if "teck" not in tip.tip.lower():
+        valid = False
+        for word in required_words:
+            if word.lower() in tip.tip.lower():
+                valid = True
+                
+        if not valid:
             tip = None
 
     if request.content_type == "application/json":
